@@ -14,7 +14,13 @@
           "common": "Polynésie française"
         }
       }
-    }
+    },
+    "cca2": "PF",
+    "capital": [
+      "Papeetē"
+    ],
+    "region": "Oceania",
+    "population": 280904
   },
   {
     "flags": {
@@ -31,7 +37,13 @@
           "common": "Saint-Martin"
         }
       }
-    }
+    },
+    "cca2": "MF",
+    "capital": [
+      "Marigot"
+    ],
+    "region": "Americas",
+    "population": 38659
   },
   {
     "flags": {
@@ -48,7 +60,13 @@
           "common": "Venezuela"
         }
       }
-    }
+    },
+    "cca2": "VE",
+    "capital": [
+      "Caracas"
+    ],
+    "region": "Americas",
+    "population": 28435943
   },
   {
     "flags": {
@@ -65,7 +83,13 @@
           "common": "La Réunion"
         }
       }
-    }
+    },
+    "cca2": "RE",
+    "capital": [
+      "Saint-Denis"
+    ],
+    "region": "Africa",
+    "population": 840974
   },
   {
     "flags": {
@@ -82,7 +106,13 @@
           "common": "El Salvador"
         }
       }
-    }
+    },
+    "cca2": "SV",
+    "capital": [
+      "San Salvador"
+    ],
+    "region": "Americas",
+    "population": 6486201
   },
   {
     "flags": {
@@ -99,7 +129,13 @@
           "common": "Dominica"
         }
       }
-    }
+    },
+    "cca2": "DM",
+    "capital": [
+      "Roseau"
+    ],
+    "region": "Americas",
+    "population": 71991
   },
   {
     "flags": {
@@ -116,7 +152,13 @@
           "common": "Gibraltar"
         }
       }
-    }
+    },
+    "cca2": "GI",
+    "capital": [
+      "Gibraltar"
+    ],
+    "region": "Europe",
+    "population": 33691
   },
   {
     "flags": {
@@ -137,7 +179,13 @@
           "common": "Kenya"
         }
       }
-    }
+    },
+    "cca2": "KE",
+    "capital": [
+      "Nairobi"
+    ],
+    "region": "Africa",
+    "population": 53771300
   },
   {
     "flags": {
@@ -154,7 +202,13 @@
           "common": "Brasil"
         }
       }
-    }
+    },
+    "cca2": "BR",
+    "capital": [
+      "Brasília"
+    ],
+    "region": "Americas",
+    "population": 212559409
   },
   {
     "flags": {
@@ -171,7 +225,13 @@
           "common": "ދިވެހިރާއްޖޭގެ"
         }
       }
-    }
+    },
+    "cca2": "MV",
+    "capital": [
+      "Malé"
+    ],
+    "region": "Asia",
+    "population": 540542
   },
   {
     "flags": {
@@ -188,7 +248,13 @@
           "common": "United States"
         }
       }
-    }
+    },
+    "cca2": "US",
+    "capital": [
+      "Washington, D.C."
+    ],
+    "region": "Americas",
+    "population": 329484123
   },
   {
     "flags": {
@@ -209,7 +275,13 @@
           "common": "Kūki 'Āirani"
         }
       }
-    }
+    },
+    "cca2": "CK",
+    "capital": [
+      "Avarua"
+    ],
+    "region": "Oceania",
+    "population": 18100
   },
   {
     "flags": {
@@ -230,7 +302,13 @@
           "common": "Niuē"
         }
       }
-    }
+    },
+    "cca2": "NU",
+    "capital": [
+      "Alofi"
+    ],
+    "region": "Oceania",
+    "population": 1470
   },
   {
     "flags": {
@@ -255,7 +333,13 @@
           "common": "Seychelles"
         }
       }
-    }
+    },
+    "cca2": "SC",
+    "capital": [
+      "Victoria"
+    ],
+    "region": "Africa",
+    "population": 98462
   },
   {
     "flags": {
@@ -276,7 +360,13 @@
           "common": "Bêafrîka"
         }
       }
-    }
+    },
+    "cca2": "CF",
+    "capital": [
+      "Bangui"
+    ],
+    "region": "Africa",
+    "population": 4829764
   },
   {
     "flags": {
@@ -301,7 +391,13 @@
           "common": "Tokelau"
         }
       }
-    }
+    },
+    "cca2": "TK",
+    "capital": [
+      "Fakaofo"
+    ],
+    "region": "Oceania",
+    "population": 1411
   },
   {
     "flags": {
@@ -326,7 +422,13 @@
           "common": "Vanuatu"
         }
       }
-    }
+    },
+    "cca2": "VU",
+    "capital": [
+      "Port Vila"
+    ],
+    "region": "Oceania",
+    "population": 307150
   },
   {
     "flags": {
@@ -343,7 +445,13 @@
           "common": "Gambia"
         }
       }
-    }
+    },
+    "cca2": "GM",
+    "capital": [
+      "Banjul"
+    ],
+    "region": "Africa",
+    "population": 2416664
   },
   {
     "flags": {
@@ -360,7 +468,13 @@
           "common": "Guyana"
         }
       }
-    }
+    },
+    "cca2": "GY",
+    "capital": [
+      "Georgetown"
+    ],
+    "region": "Americas",
+    "population": 786559
   },
   {
     "flags": {
@@ -377,7 +491,13 @@
           "common": "Falkland Islands"
         }
       }
-    }
+    },
+    "cca2": "FK",
+    "capital": [
+      "Stanley"
+    ],
+    "region": "Americas",
+    "population": 2563
   },
   {
     "flags": {
@@ -402,7 +522,13 @@
           "common": "België"
         }
       }
-    }
+    },
+    "cca2": "BE",
+    "capital": [
+      "Brussels"
+    ],
+    "region": "Europe",
+    "population": 11555997
   },
   {
     "flags": {
@@ -427,7 +553,13 @@
           "common": "Sahara Occidental"
         }
       }
-    }
+    },
+    "cca2": "EH",
+    "capital": [
+      "El Aaiún"
+    ],
+    "region": "Africa",
+    "population": 510713
   },
   {
     "flags": {
@@ -444,7 +576,13 @@
           "common": "Türkiye"
         }
       }
-    }
+    },
+    "cca2": "TR",
+    "capital": [
+      "Ankara"
+    ],
+    "region": "Asia",
+    "population": 84339067
   },
   {
     "flags": {
@@ -461,7 +599,13 @@
           "common": "Saint Vincent and the Grenadines"
         }
       }
-    }
+    },
+    "cca2": "VC",
+    "capital": [
+      "Kingstown"
+    ],
+    "region": "Americas",
+    "population": 110947
   },
   {
     "flags": {
@@ -482,7 +626,13 @@
           "common": "پاكستان"
         }
       }
-    }
+    },
+    "cca2": "PK",
+    "capital": [
+      "Islamabad"
+    ],
+    "region": "Asia",
+    "population": 220892331
   },
   {
     "flags": {
@@ -499,7 +649,13 @@
           "common": "Åland"
         }
       }
-    }
+    },
+    "cca2": "AX",
+    "capital": [
+      "Mariehamn"
+    ],
+    "region": "Europe",
+    "population": 29458
   },
   {
     "flags": {
@@ -516,7 +672,13 @@
           "common": "ایران"
         }
       }
-    }
+    },
+    "cca2": "IR",
+    "capital": [
+      "Tehran"
+    ],
+    "region": "Asia",
+    "population": 83992953
   },
   {
     "flags": {
@@ -533,7 +695,13 @@
           "common": "Indonesia"
         }
       }
-    }
+    },
+    "cca2": "ID",
+    "capital": [
+      "Jakarta"
+    ],
+    "region": "Asia",
+    "population": 273523621
   },
   {
     "flags": {
@@ -558,7 +726,13 @@
           "common": "New Zealand"
         }
       }
-    }
+    },
+    "cca2": "NZ",
+    "capital": [
+      "Wellington"
+    ],
+    "region": "Oceania",
+    "population": 5084300
   },
   {
     "flags": {
@@ -583,7 +757,13 @@
           "common": "Owganystan"
         }
       }
-    }
+    },
+    "cca2": "AF",
+    "capital": [
+      "Kabul"
+    ],
+    "region": "Asia",
+    "population": 40218234
   },
   {
     "flags": {
@@ -608,7 +788,13 @@
           "common": "Guam"
         }
       }
-    }
+    },
+    "cca2": "GU",
+    "capital": [
+      "Hagåtña"
+    ],
+    "region": "Oceania",
+    "population": 168783
   },
   {
     "flags": {
@@ -625,7 +811,13 @@
           "common": "Shqipëria"
         }
       }
-    }
+    },
+    "cca2": "AL",
+    "capital": [
+      "Tirana"
+    ],
+    "region": "Europe",
+    "population": 2837743
   },
   {
     "flags": {
@@ -658,7 +850,13 @@
           "common": "Jamhuri ya Kidemokrasia ya Kongo"
         }
       }
-    }
+    },
+    "cca2": "CD",
+    "capital": [
+      "Kinshasa"
+    ],
+    "region": "Africa",
+    "population": 108407721
   },
   {
     "flags": {
@@ -675,7 +873,13 @@
           "common": "Côte d'Ivoire"
         }
       }
-    }
+    },
+    "cca2": "CI",
+    "capital": [
+      "Yamoussoukro"
+    ],
+    "region": "Africa",
+    "population": 26378275
   },
   {
     "flags": {
@@ -696,7 +900,13 @@
           "common": "Sudan"
         }
       }
-    }
+    },
+    "cca2": "SD",
+    "capital": [
+      "Khartoum"
+    ],
+    "region": "Africa",
+    "population": 43849269
   },
   {
     "flags": {
@@ -717,7 +927,13 @@
           "common": "Timór-Leste"
         }
       }
-    }
+    },
+    "cca2": "TL",
+    "capital": [
+      "Dili"
+    ],
+    "region": "Asia",
+    "population": 1318442
   },
   {
     "flags": {
@@ -742,7 +958,13 @@
           "common": "Lëtzebuerg"
         }
       }
-    }
+    },
+    "cca2": "LU",
+    "capital": [
+      "Luxembourg"
+    ],
+    "region": "Europe",
+    "population": 632275
   },
   {
     "flags": {
@@ -759,7 +981,13 @@
           "common": "العربية السعودية"
         }
       }
-    }
+    },
+    "cca2": "SA",
+    "capital": [
+      "Riyadh"
+    ],
+    "region": "Asia",
+    "population": 34813867
   },
   {
     "flags": {
@@ -776,7 +1004,13 @@
           "common": "Kâmpŭchéa"
         }
       }
-    }
+    },
+    "cca2": "KH",
+    "capital": [
+      "Phnom Penh"
+    ],
+    "region": "Asia",
+    "population": 16718971
   },
   {
     "flags": {
@@ -793,7 +1027,13 @@
           "common": "नेपाल"
         }
       }
-    }
+    },
+    "cca2": "NP",
+    "capital": [
+      "Kathmandu"
+    ],
+    "region": "Asia",
+    "population": 29136808
   },
   {
     "flags": {
@@ -810,7 +1050,13 @@
           "common": "Guyane française"
         }
       }
-    }
+    },
+    "cca2": "GF",
+    "capital": [
+      "Cayenne"
+    ],
+    "region": "Americas",
+    "population": 254541
   },
   {
     "flags": {
@@ -831,7 +1077,13 @@
           "common": "مليسيا"
         }
       }
-    }
+    },
+    "cca2": "MY",
+    "capital": [
+      "Kuala Lumpur"
+    ],
+    "region": "Asia",
+    "population": 32365998
   },
   {
     "flags": {
@@ -856,7 +1108,13 @@
           "common": "Rwanda"
         }
       }
-    }
+    },
+    "cca2": "RW",
+    "capital": [
+      "Kigali"
+    ],
+    "region": "Africa",
+    "population": 12952209
   },
   {
     "flags": {
@@ -873,7 +1131,13 @@
           "common": "ประเทศไทย"
         }
       }
-    }
+    },
+    "cca2": "TH",
+    "capital": [
+      "Bangkok"
+    ],
+    "region": "Asia",
+    "population": 69799978
   },
   {
     "flags": {
@@ -885,7 +1149,11 @@
       "common": "Antarctica",
       "official": "Antarctica",
       "nativeName": {}
-    }
+    },
+    "cca2": "AQ",
+    "capital": [],
+    "region": "Antarctic",
+    "population": 1000
   },
   {
     "flags": {
@@ -902,7 +1170,13 @@
           "common": "الأردن"
         }
       }
-    }
+    },
+    "cca2": "JO",
+    "capital": [
+      "Amman"
+    ],
+    "region": "Asia",
+    "population": 10203140
   },
   {
     "flags": {
@@ -931,7 +1205,13 @@
           "common": "Svizra"
         }
       }
-    }
+    },
+    "cca2": "CH",
+    "capital": [
+      "Bern"
+    ],
+    "region": "Europe",
+    "population": 8654622
   },
   {
     "flags": {
@@ -956,7 +1236,13 @@
           "common": "Komori"
         }
       }
-    }
+    },
+    "cca2": "KM",
+    "capital": [
+      "Moroni"
+    ],
+    "region": "Africa",
+    "population": 869595
   },
   {
     "flags": {
@@ -977,7 +1263,13 @@
           "common": "Косово"
         }
       }
-    }
+    },
+    "cca2": "XK",
+    "capital": [
+      "Pristina"
+    ],
+    "region": "Europe",
+    "population": 1775378
   },
   {
     "flags": {
@@ -998,7 +1290,13 @@
           "common": "Mannin"
         }
       }
-    }
+    },
+    "cca2": "IM",
+    "capital": [
+      "Douglas"
+    ],
+    "region": "Europe",
+    "population": 85032
   },
   {
     "flags": {
@@ -1015,7 +1313,13 @@
           "common": "Црна Гора"
         }
       }
-    }
+    },
+    "cca2": "ME",
+    "capital": [
+      "Podgorica"
+    ],
+    "region": "Europe",
+    "population": 621718
   },
   {
     "flags": {
@@ -1036,7 +1340,13 @@
           "common": "香港"
         }
       }
-    }
+    },
+    "cca2": "HK",
+    "capital": [
+      "City of Victoria"
+    ],
+    "region": "Asia",
+    "population": 7500700
   },
   {
     "flags": {
@@ -1061,7 +1371,13 @@
           "common": "Jèrri"
         }
       }
-    }
+    },
+    "cca2": "JE",
+    "capital": [
+      "Saint Helier"
+    ],
+    "region": "Europe",
+    "population": 100800
   },
   {
     "flags": {
@@ -1082,7 +1398,13 @@
           "common": "Тоҷикистон"
         }
       }
-    }
+    },
+    "cca2": "TJ",
+    "capital": [
+      "Dushanbe"
+    ],
+    "region": "Asia",
+    "population": 9537642
   },
   {
     "flags": {
@@ -1099,7 +1421,13 @@
           "common": "България"
         }
       }
-    }
+    },
+    "cca2": "BG",
+    "capital": [
+      "Sofia"
+    ],
+    "region": "Europe",
+    "population": 6927288
   },
   {
     "flags": {
@@ -1116,7 +1444,13 @@
           "common": "مصر"
         }
       }
-    }
+    },
+    "cca2": "EG",
+    "capital": [
+      "Cairo"
+    ],
+    "region": "Africa",
+    "population": 102334403
   },
   {
     "flags": {
@@ -1137,7 +1471,13 @@
           "common": "Malaŵi"
         }
       }
-    }
+    },
+    "cca2": "MW",
+    "capital": [
+      "Lilongwe"
+    ],
+    "region": "Africa",
+    "population": 19129955
   },
   {
     "flags": {
@@ -1154,7 +1494,13 @@
           "common": "Cabo Verde"
         }
       }
-    }
+    },
+    "cca2": "CV",
+    "capital": [
+      "Praia"
+    ],
+    "region": "Africa",
+    "population": 555988
   },
   {
     "flags": {
@@ -1171,7 +1517,13 @@
           "common": "Bénin"
         }
       }
-    }
+    },
+    "cca2": "BJ",
+    "capital": [
+      "Porto-Novo"
+    ],
+    "region": "Africa",
+    "population": 12123198
   },
   {
     "flags": {
@@ -1192,7 +1544,13 @@
           "common": "ⵍⵎⴰⵖⵔⵉⴱ"
         }
       }
-    }
+    },
+    "cca2": "MA",
+    "capital": [
+      "Rabat"
+    ],
+    "region": "Africa",
+    "population": 36910558
   },
   {
     "flags": {
@@ -1213,7 +1571,13 @@
           "common": "Éire"
         }
       }
-    }
+    },
+    "cca2": "IE",
+    "capital": [
+      "Dublin"
+    ],
+    "region": "Europe",
+    "population": 4994724
   },
   {
     "flags": {
@@ -1230,7 +1594,13 @@
           "common": "Moldova"
         }
       }
-    }
+    },
+    "cca2": "MD",
+    "capital": [
+      "Chișinău"
+    ],
+    "region": "Europe",
+    "population": 2617820
   },
   {
     "flags": {
@@ -1247,7 +1617,13 @@
           "common": "Danmark"
         }
       }
-    }
+    },
+    "cca2": "DK",
+    "capital": [
+      "Copenhagen"
+    ],
+    "region": "Europe",
+    "population": 5831404
   },
   {
     "flags": {
@@ -1268,7 +1644,13 @@
           "common": "Türkmenistan"
         }
       }
-    }
+    },
+    "cca2": "TM",
+    "capital": [
+      "Ashgabat"
+    ],
+    "region": "Asia",
+    "population": 6031187
   },
   {
     "flags": {
@@ -1285,7 +1667,13 @@
           "common": "Micronesia"
         }
       }
-    }
+    },
+    "cca2": "FM",
+    "capital": [
+      "Palikir"
+    ],
+    "region": "Oceania",
+    "population": 115021
   },
   {
     "flags": {
@@ -1302,7 +1690,13 @@
           "common": "Monaco"
         }
       }
-    }
+    },
+    "cca2": "MC",
+    "capital": [
+      "Monaco"
+    ],
+    "region": "Europe",
+    "population": 39244
   },
   {
     "flags": {
@@ -1319,7 +1713,13 @@
           "common": "Barbados"
         }
       }
-    }
+    },
+    "cca2": "BB",
+    "capital": [
+      "Bridgetown"
+    ],
+    "region": "Americas",
+    "population": 287371
   },
   {
     "flags": {
@@ -1336,7 +1736,13 @@
           "common": "الجزائر"
         }
       }
-    }
+    },
+    "cca2": "DZ",
+    "capital": [
+      "Algiers"
+    ],
+    "region": "Africa",
+    "population": 44700000
   },
   {
     "flags": {
@@ -1353,7 +1759,13 @@
           "common": "Terres australes et antarctiques françaises"
         }
       }
-    }
+    },
+    "cca2": "TF",
+    "capital": [
+      "Port-aux-Français"
+    ],
+    "region": "Antarctic",
+    "population": 400
   },
   {
     "flags": {
@@ -1378,7 +1790,13 @@
           "common": "ኤርትራ"
         }
       }
-    }
+    },
+    "cca2": "ER",
+    "capital": [
+      "Asmara"
+    ],
+    "region": "Africa",
+    "population": 5352000
   },
   {
     "flags": {
@@ -1399,7 +1817,13 @@
           "common": "Lesotho"
         }
       }
-    }
+    },
+    "cca2": "LS",
+    "capital": [
+      "Maseru"
+    ],
+    "region": "Africa",
+    "population": 2142252
   },
   {
     "flags": {
@@ -1420,7 +1844,13 @@
           "common": "Tanzania"
         }
       }
-    }
+    },
+    "cca2": "TZ",
+    "capital": [
+      "Dodoma"
+    ],
+    "region": "Africa",
+    "population": 59734213
   },
   {
     "flags": {
@@ -1437,7 +1867,13 @@
           "common": "Mali"
         }
       }
-    }
+    },
+    "cca2": "ML",
+    "capital": [
+      "Bamako"
+    ],
+    "region": "Africa",
+    "population": 20250834
   },
   {
     "flags": {
@@ -1454,7 +1890,13 @@
           "common": "Niger"
         }
       }
-    }
+    },
+    "cca2": "NE",
+    "capital": [
+      "Niamey"
+    ],
+    "region": "Africa",
+    "population": 24206636
   },
   {
     "flags": {
@@ -1471,7 +1913,13 @@
           "common": "Andorra"
         }
       }
-    }
+    },
+    "cca2": "AD",
+    "capital": [
+      "Andorra la Vella"
+    ],
+    "region": "Europe",
+    "population": 77265
   },
   {
     "flags": {
@@ -1488,7 +1936,13 @@
           "common": "United Kingdom"
         }
       }
-    }
+    },
+    "cca2": "GB",
+    "capital": [
+      "London"
+    ],
+    "region": "Europe",
+    "population": 67215293
   },
   {
     "flags": {
@@ -1505,7 +1959,13 @@
           "common": "Deutschland"
         }
       }
-    }
+    },
+    "cca2": "DE",
+    "capital": [
+      "Berlin"
+    ],
+    "region": "Europe",
+    "population": 83240525
   },
   {
     "flags": {
@@ -1522,7 +1982,13 @@
           "common": "United States Virgin Islands"
         }
       }
-    }
+    },
+    "cca2": "VI",
+    "capital": [
+      "Charlotte Amalie"
+    ],
+    "region": "Americas",
+    "population": 106290
   },
   {
     "flags": {
@@ -1543,7 +2009,13 @@
           "common": "Soomaaliya"
         }
       }
-    }
+    },
+    "cca2": "SO",
+    "capital": [
+      "Mogadishu"
+    ],
+    "region": "Africa",
+    "population": 15893219
   },
   {
     "flags": {
@@ -1568,7 +2040,13 @@
           "common": "Sint Maarten"
         }
       }
-    }
+    },
+    "cca2": "SX",
+    "capital": [
+      "Philipsburg"
+    ],
+    "region": "Americas",
+    "population": 40812
   },
   {
     "flags": {
@@ -1589,7 +2067,13 @@
           "common": "Cameroun"
         }
       }
-    }
+    },
+    "cca2": "CM",
+    "capital": [
+      "Yaoundé"
+    ],
+    "region": "Africa",
+    "population": 26545864
   },
   {
     "flags": {
@@ -1606,7 +2090,13 @@
           "common": "República Dominicana"
         }
       }
-    }
+    },
+    "cca2": "DO",
+    "capital": [
+      "Santo Domingo"
+    ],
+    "region": "Americas",
+    "population": 10847904
   },
   {
     "flags": {
@@ -1623,7 +2113,13 @@
           "common": "Guinée"
         }
       }
-    }
+    },
+    "cca2": "GN",
+    "capital": [
+      "Conakry"
+    ],
+    "region": "Africa",
+    "population": 13132792
   },
   {
     "flags": {
@@ -1672,7 +2168,13 @@
           "common": "Namibia"
         }
       }
-    }
+    },
+    "cca2": "NA",
+    "capital": [
+      "Windhoek"
+    ],
+    "region": "Africa",
+    "population": 2540916
   },
   {
     "flags": {
@@ -1689,7 +2191,13 @@
           "common": "Montserrat"
         }
       }
-    }
+    },
+    "cca2": "MS",
+    "capital": [
+      "Plymouth"
+    ],
+    "region": "Americas",
+    "population": 4922
   },
   {
     "flags": {
@@ -1706,7 +2214,13 @@
           "common": "South Georgia"
         }
       }
-    }
+    },
+    "cca2": "GS",
+    "capital": [
+      "King Edward Point"
+    ],
+    "region": "Antarctic",
+    "population": 30
   },
   {
     "flags": {
@@ -1723,7 +2237,13 @@
           "common": "Sénégal"
         }
       }
-    }
+    },
+    "cca2": "SN",
+    "capital": [
+      "Dakar"
+    ],
+    "region": "Africa",
+    "population": 16743930
   },
   {
     "flags": {
@@ -1740,7 +2260,11 @@
           "common": "Bouvetøya"
         }
       }
-    }
+    },
+    "cca2": "BV",
+    "capital": [],
+    "region": "Antarctic",
+    "population": 0
   },
   {
     "flags": {
@@ -1757,7 +2281,13 @@
           "common": "Solomon Islands"
         }
       }
-    }
+    },
+    "cca2": "SB",
+    "capital": [
+      "Honiara"
+    ],
+    "region": "Oceania",
+    "population": 686878
   },
   {
     "flags": {
@@ -1774,7 +2304,13 @@
           "common": "France"
         }
       }
-    }
+    },
+    "cca2": "FR",
+    "capital": [
+      "Paris"
+    ],
+    "region": "Europe",
+    "population": 67391582
   },
   {
     "flags": {
@@ -1791,7 +2327,13 @@
           "common": "Saint Helena, Ascension and Tristan da Cunha"
         }
       }
-    }
+    },
+    "cca2": "SH",
+    "capital": [
+      "Jamestown"
+    ],
+    "region": "Africa",
+    "population": 53192
   },
   {
     "flags": {
@@ -1812,7 +2354,11 @@
           "common": "澳门"
         }
       }
-    }
+    },
+    "cca2": "MO",
+    "capital": [],
+    "region": "Asia",
+    "population": 649342
   },
   {
     "flags": {
@@ -1833,7 +2379,13 @@
           "common": "Argentina"
         }
       }
-    }
+    },
+    "cca2": "AR",
+    "capital": [
+      "Buenos Aires"
+    ],
+    "region": "Americas",
+    "population": 45376763
   },
   {
     "flags": {
@@ -1858,7 +2410,13 @@
           "common": "Босна и Херцеговина"
         }
       }
-    }
+    },
+    "cca2": "BA",
+    "capital": [
+      "Sarajevo"
+    ],
+    "region": "Europe",
+    "population": 3280815
   },
   {
     "flags": {
@@ -1875,7 +2433,13 @@
           "common": "Anguilla"
         }
       }
-    }
+    },
+    "cca2": "AI",
+    "capital": [
+      "The Valley"
+    ],
+    "region": "Americas",
+    "population": 13452
   },
   {
     "flags": {
@@ -1900,7 +2464,13 @@
           "common": "Dgèrnésiais"
         }
       }
-    }
+    },
+    "cca2": "GG",
+    "capital": [
+      "St. Peter Port"
+    ],
+    "region": "Europe",
+    "population": 62999
   },
   {
     "flags": {
@@ -1921,7 +2491,13 @@
           "common": "Djibouti"
         }
       }
-    }
+    },
+    "cca2": "DJ",
+    "capital": [
+      "Djibouti"
+    ],
+    "region": "Africa",
+    "population": 988002
   },
   {
     "flags": {
@@ -1938,7 +2514,13 @@
           "common": "Saint Kitts and Nevis"
         }
       }
-    }
+    },
+    "cca2": "KN",
+    "capital": [
+      "Basseterre"
+    ],
+    "region": "Americas",
+    "population": 53192
   },
   {
     "flags": {
@@ -1955,7 +2537,13 @@
           "common": "سوريا"
         }
       }
-    }
+    },
+    "cca2": "SY",
+    "capital": [
+      "Damascus"
+    ],
+    "region": "Asia",
+    "population": 17500657
   },
   {
     "flags": {
@@ -1976,7 +2564,13 @@
           "common": "Puerto Rico"
         }
       }
-    }
+    },
+    "cca2": "PR",
+    "capital": [
+      "San Juan"
+    ],
+    "region": "Americas",
+    "population": 3194034
   },
   {
     "flags": {
@@ -2001,7 +2595,13 @@
           "common": "Perú"
         }
       }
-    }
+    },
+    "cca2": "PE",
+    "capital": [
+      "Lima"
+    ],
+    "region": "Americas",
+    "population": 32971846
   },
   {
     "flags": {
@@ -2018,7 +2618,13 @@
           "common": "San Marino"
         }
       }
-    }
+    },
+    "cca2": "SM",
+    "capital": [
+      "City of San Marino"
+    ],
+    "region": "Europe",
+    "population": 33938
   },
   {
     "flags": {
@@ -2035,7 +2641,13 @@
           "common": "Australia"
         }
       }
-    }
+    },
+    "cca2": "AU",
+    "capital": [
+      "Canberra"
+    ],
+    "region": "Oceania",
+    "population": 25687041
   },
   {
     "flags": {
@@ -2052,7 +2664,13 @@
           "common": "Nouvelle-Calédonie"
         }
       }
-    }
+    },
+    "cca2": "NC",
+    "capital": [
+      "Nouméa"
+    ],
+    "region": "Oceania",
+    "population": 271960
   },
   {
     "flags": {
@@ -2073,7 +2691,13 @@
           "common": "Jamaica"
         }
       }
-    }
+    },
+    "cca2": "JM",
+    "capital": [
+      "Kingston"
+    ],
+    "region": "Americas",
+    "population": 2961161
   },
   {
     "flags": {
@@ -2094,7 +2718,13 @@
           "common": "Казахстан"
         }
       }
-    }
+    },
+    "cca2": "KZ",
+    "capital": [
+      "Nur-Sultan"
+    ],
+    "region": "Asia",
+    "population": 18754440
   },
   {
     "flags": {
@@ -2111,7 +2741,13 @@
           "common": "Sierra Leone"
         }
       }
-    }
+    },
+    "cca2": "SL",
+    "capital": [
+      "Freetown"
+    ],
+    "region": "Africa",
+    "population": 7976985
   },
   {
     "flags": {
@@ -2132,7 +2768,13 @@
           "common": "Belau"
         }
       }
-    }
+    },
+    "cca2": "PW",
+    "capital": [
+      "Ngerulmud"
+    ],
+    "region": "Oceania",
+    "population": 18092
   },
   {
     "flags": {
@@ -2149,7 +2791,13 @@
           "common": "한국"
         }
       }
-    }
+    },
+    "cca2": "KR",
+    "capital": [
+      "Seoul"
+    ],
+    "region": "Asia",
+    "population": 51780579
   },
   {
     "flags": {
@@ -2166,7 +2814,13 @@
           "common": "Saint-Pierre-et-Miquelon"
         }
       }
-    }
+    },
+    "cca2": "PM",
+    "capital": [
+      "Saint-Pierre"
+    ],
+    "region": "Americas",
+    "population": 6069
   },
   {
     "flags": {
@@ -2191,7 +2845,13 @@
           "common": "Belice"
         }
       }
-    }
+    },
+    "cca2": "BZ",
+    "capital": [
+      "Belmopan"
+    ],
+    "region": "Americas",
+    "population": 397621
   },
   {
     "flags": {
@@ -2216,7 +2876,13 @@
           "common": "Papua Niugini"
         }
       }
-    }
+    },
+    "cca2": "PG",
+    "capital": [
+      "Port Moresby"
+    ],
+    "region": "Oceania",
+    "population": 8947027
   },
   {
     "flags": {
@@ -2233,7 +2899,13 @@
           "common": "Ísland"
         }
       }
-    }
+    },
+    "cca2": "IS",
+    "capital": [
+      "Reykjavik"
+    ],
+    "region": "Europe",
+    "population": 366425
   },
   {
     "flags": {
@@ -2254,7 +2926,13 @@
           "common": "Sāmoa Amelika"
         }
       }
-    }
+    },
+    "cca2": "AS",
+    "capital": [
+      "Pago Pago"
+    ],
+    "region": "Oceania",
+    "population": 55197
   },
   {
     "flags": {
@@ -2271,7 +2949,13 @@
           "common": "Burkina Faso"
         }
       }
-    }
+    },
+    "cca2": "BF",
+    "capital": [
+      "Ouagadougou"
+    ],
+    "region": "Africa",
+    "population": 20903278
   },
   {
     "flags": {
@@ -2288,7 +2972,13 @@
           "common": "Portugal"
         }
       }
-    }
+    },
+    "cca2": "PT",
+    "capital": [
+      "Lisbon"
+    ],
+    "region": "Europe",
+    "population": 10305564
   },
   {
     "flags": {
@@ -2305,7 +2995,13 @@
           "common": "台灣"
         }
       }
-    }
+    },
+    "cca2": "TW",
+    "capital": [
+      "Taipei"
+    ],
+    "region": "Asia",
+    "population": 23503349
   },
   {
     "flags": {
@@ -2322,7 +3018,13 @@
           "common": "日本"
         }
       }
-    }
+    },
+    "cca2": "JP",
+    "capital": [
+      "Tokyo"
+    ],
+    "region": "Asia",
+    "population": 125836021
   },
   {
     "flags": {
@@ -2339,7 +3041,13 @@
           "common": "中国"
         }
       }
-    }
+    },
+    "cca2": "CN",
+    "capital": [
+      "Beijing"
+    ],
+    "region": "Asia",
+    "population": 1402112000
   },
   {
     "flags": {
@@ -2360,7 +3068,13 @@
           "common": "Liban"
         }
       }
-    }
+    },
+    "cca2": "LB",
+    "capital": [
+      "Beirut"
+    ],
+    "region": "Asia",
+    "population": 6825442
   },
   {
     "flags": {
@@ -2381,7 +3095,13 @@
           "common": "இலங்கை"
         }
       }
-    }
+    },
+    "cca2": "LK",
+    "capital": [
+      "Sri Jayawardenepura Kotte"
+    ],
+    "region": "Asia",
+    "population": 21919000
   },
   {
     "flags": {
@@ -2398,7 +3118,13 @@
           "common": "Guatemala"
         }
       }
-    }
+    },
+    "cca2": "GT",
+    "capital": [
+      "Guatemala City"
+    ],
+    "region": "Americas",
+    "population": 16858333
   },
   {
     "flags": {
@@ -2415,7 +3141,13 @@
           "common": "Србија"
         }
       }
-    }
+    },
+    "cca2": "RS",
+    "capital": [
+      "Belgrade"
+    ],
+    "region": "Europe",
+    "population": 6908224
   },
   {
     "flags": {
@@ -2436,7 +3168,13 @@
           "common": "Madagasikara"
         }
       }
-    }
+    },
+    "cca2": "MG",
+    "capital": [
+      "Antananarivo"
+    ],
+    "region": "Africa",
+    "population": 27691019
   },
   {
     "flags": {
@@ -2457,7 +3195,13 @@
           "common": "eSwatini"
         }
       }
-    }
+    },
+    "cca2": "SZ",
+    "capital": [
+      "Mbabane"
+    ],
+    "region": "Africa",
+    "population": 1160164
   },
   {
     "flags": {
@@ -2474,7 +3218,13 @@
           "common": "România"
         }
       }
-    }
+    },
+    "cca2": "RO",
+    "capital": [
+      "Bucharest"
+    ],
+    "region": "Europe",
+    "population": 19286123
   },
   {
     "flags": {
@@ -2491,7 +3241,13 @@
           "common": "Antigua and Barbuda"
         }
       }
-    }
+    },
+    "cca2": "AG",
+    "capital": [
+      "Saint John's"
+    ],
+    "region": "Americas",
+    "population": 97928
   },
   {
     "flags": {
@@ -2516,7 +3272,13 @@
           "common": "Pais Kòrsou"
         }
       }
-    }
+    },
+    "cca2": "CW",
+    "capital": [
+      "Willemstad"
+    ],
+    "region": "Americas",
+    "population": 155014
   },
   {
     "flags": {
@@ -2533,7 +3295,13 @@
           "common": "Zambia"
         }
       }
-    }
+    },
+    "cca2": "ZM",
+    "capital": [
+      "Lusaka"
+    ],
+    "region": "Africa",
+    "population": 18383956
   },
   {
     "flags": {
@@ -2606,7 +3374,13 @@
           "common": "Zimbabwe"
         }
       }
-    }
+    },
+    "cca2": "ZW",
+    "capital": [
+      "Harare"
+    ],
+    "region": "Africa",
+    "population": 14862927
   },
   {
     "flags": {
@@ -2623,7 +3397,13 @@
           "common": "تونس"
         }
       }
-    }
+    },
+    "cca2": "TN",
+    "capital": [
+      "Tunis"
+    ],
+    "region": "Africa",
+    "population": 11818618
   },
   {
     "flags": {
@@ -2640,7 +3420,13 @@
           "common": "دولة الإمارات العربية المتحدة"
         }
       }
-    }
+    },
+    "cca2": "AE",
+    "capital": [
+      "Abu Dhabi"
+    ],
+    "region": "Asia",
+    "population": 9890400
   },
   {
     "flags": {
@@ -2657,7 +3443,13 @@
           "common": "Монгол улс"
         }
       }
-    }
+    },
+    "cca2": "MN",
+    "capital": [
+      "Ulan Bator"
+    ],
+    "region": "Asia",
+    "population": 3278292
   },
   {
     "flags": {
@@ -2682,7 +3474,13 @@
           "common": "Norgga"
         }
       }
-    }
+    },
+    "cca2": "NO",
+    "capital": [
+      "Oslo"
+    ],
+    "region": "Europe",
+    "population": 5379475
   },
   {
     "flags": {
@@ -2699,7 +3497,13 @@
           "common": "Kalaallit Nunaat"
         }
       }
-    }
+    },
+    "cca2": "GL",
+    "capital": [
+      "Nuuk"
+    ],
+    "region": "Americas",
+    "population": 56367
   },
   {
     "flags": {
@@ -2716,7 +3520,13 @@
           "common": "Uruguay"
         }
       }
-    }
+    },
+    "cca2": "UY",
+    "capital": [
+      "Montevideo"
+    ],
+    "region": "Americas",
+    "population": 3473727
   },
   {
     "flags": {
@@ -2733,7 +3543,13 @@
           "common": "Bahamas"
         }
       }
-    }
+    },
+    "cca2": "BS",
+    "capital": [
+      "Nassau"
+    ],
+    "region": "Americas",
+    "population": 393248
   },
   {
     "flags": {
@@ -2750,7 +3566,13 @@
           "common": "Россия"
         }
       }
-    }
+    },
+    "cca2": "RU",
+    "capital": [
+      "Moscow"
+    ],
+    "region": "Europe",
+    "population": 144104080
   },
   {
     "flags": {
@@ -2767,7 +3589,13 @@
           "common": "British Virgin Islands"
         }
       }
-    }
+    },
+    "cca2": "VG",
+    "capital": [
+      "Road Town"
+    ],
+    "region": "Americas",
+    "population": 30237
   },
   {
     "flags": {
@@ -2784,7 +3612,13 @@
           "common": "Wallis et Futuna"
         }
       }
-    }
+    },
+    "cca2": "WF",
+    "capital": [
+      "Mata-Utu"
+    ],
+    "region": "Oceania",
+    "population": 11750
   },
   {
     "flags": {
@@ -2805,7 +3639,13 @@
           "common": "Tchad"
         }
       }
-    }
+    },
+    "cca2": "TD",
+    "capital": [
+      "N'Djamena"
+    ],
+    "region": "Africa",
+    "population": 16425859
   },
   {
     "flags": {
@@ -2822,7 +3662,13 @@
           "common": "Saint Lucia"
         }
       }
-    }
+    },
+    "cca2": "LC",
+    "capital": [
+      "Castries"
+    ],
+    "region": "Americas",
+    "population": 183629
   },
   {
     "flags": {
@@ -2839,7 +3685,13 @@
           "common": "اليَمَن"
         }
       }
-    }
+    },
+    "cca2": "YE",
+    "capital": [
+      "Sana'a"
+    ],
+    "region": "Asia",
+    "population": 29825968
   },
   {
     "flags": {
@@ -2856,7 +3708,13 @@
           "common": "United States Minor Outlying Islands"
         }
       }
-    }
+    },
+    "cca2": "UM",
+    "capital": [
+      "Washington DC"
+    ],
+    "region": "Americas",
+    "population": 300
   },
   {
     "flags": {
@@ -2873,7 +3731,13 @@
           "common": "Sverige"
         }
       }
-    }
+    },
+    "cca2": "SE",
+    "capital": [
+      "Stockholm"
+    ],
+    "region": "Europe",
+    "population": 10353442
   },
   {
     "flags": {
@@ -2890,7 +3754,13 @@
           "common": "Svalbard og Jan Mayen"
         }
       }
-    }
+    },
+    "cca2": "SJ",
+    "capital": [
+      "Longyearbyen"
+    ],
+    "region": "Europe",
+    "population": 2562
   },
   {
     "flags": {
@@ -2907,7 +3777,13 @@
           "common": "ສປປລາວ"
         }
       }
-    }
+    },
+    "cca2": "LA",
+    "capital": [
+      "Vientiane"
+    ],
+    "region": "Asia",
+    "population": 7275556
   },
   {
     "flags": {
@@ -2924,7 +3800,13 @@
           "common": "Latvija"
         }
       }
-    }
+    },
+    "cca2": "LV",
+    "capital": [
+      "Riga"
+    ],
+    "region": "Europe",
+    "population": 1901548
   },
   {
     "flags": {
@@ -2941,7 +3823,13 @@
           "common": "Colombia"
         }
       }
-    }
+    },
+    "cca2": "CO",
+    "capital": [
+      "Bogotá"
+    ],
+    "region": "Americas",
+    "population": 50882884
   },
   {
     "flags": {
@@ -2958,7 +3846,13 @@
           "common": "Grenada"
         }
       }
-    }
+    },
+    "cca2": "GD",
+    "capital": [
+      "St. George's"
+    ],
+    "region": "Americas",
+    "population": 112519
   },
   {
     "flags": {
@@ -2975,7 +3869,13 @@
           "common": "Saint-Barthélemy"
         }
       }
-    }
+    },
+    "cca2": "BL",
+    "capital": [
+      "Gustavia"
+    ],
+    "region": "Americas",
+    "population": 4255
   },
   {
     "flags": {
@@ -2996,7 +3896,13 @@
           "common": "Canada"
         }
       }
-    }
+    },
+    "cca2": "CA",
+    "capital": [
+      "Ottawa"
+    ],
+    "region": "Americas",
+    "population": 38005238
   },
   {
     "flags": {
@@ -3013,7 +3919,11 @@
           "common": "Heard Island and McDonald Islands"
         }
       }
-    }
+    },
+    "cca2": "HM",
+    "capital": [],
+    "region": "Antarctic",
+    "population": 0
   },
   {
     "flags": {
@@ -3038,7 +3948,13 @@
           "common": "இந்தியா"
         }
       }
-    }
+    },
+    "cca2": "IN",
+    "capital": [
+      "New Delhi"
+    ],
+    "region": "Asia",
+    "population": 1380004385
   },
   {
     "flags": {
@@ -3059,7 +3975,13 @@
           "common": "Guiné-Bissau"
         }
       }
-    }
+    },
+    "cca2": "GW",
+    "capital": [
+      "Bissau"
+    ],
+    "region": "Africa",
+    "population": 1967998
   },
   {
     "flags": {
@@ -3076,7 +3998,13 @@
           "common": "Македонија"
         }
       }
-    }
+    },
+    "cca2": "MK",
+    "capital": [
+      "Skopje"
+    ],
+    "region": "Europe",
+    "population": 2077132
   },
   {
     "flags": {
@@ -3097,7 +4025,13 @@
           "common": "Paraguay"
         }
       }
-    }
+    },
+    "cca2": "PY",
+    "capital": [
+      "Asunción"
+    ],
+    "region": "Americas",
+    "population": 7132530
   },
   {
     "flags": {
@@ -3114,7 +4048,13 @@
           "common": "Hrvatska"
         }
       }
-    }
+    },
+    "cca2": "HR",
+    "capital": [
+      "Zagreb"
+    ],
+    "region": "Europe",
+    "population": 4047200
   },
   {
     "flags": {
@@ -3131,7 +4071,13 @@
           "common": "Costa Rica"
         }
       }
-    }
+    },
+    "cca2": "CR",
+    "capital": [
+      "San José"
+    ],
+    "region": "Americas",
+    "population": 5094114
   },
   {
     "flags": {
@@ -3152,7 +4098,13 @@
           "common": "Uganda"
         }
       }
-    }
+    },
+    "cca2": "UG",
+    "capital": [
+      "Kampala"
+    ],
+    "region": "Africa",
+    "population": 45741000
   },
   {
     "flags": {
@@ -3173,7 +4125,13 @@
           "common": "Boneiru, Sint Eustatius y Saba"
         }
       }
-    }
+    },
+    "cca2": "BQ",
+    "capital": [
+      "Kralendijk"
+    ],
+    "region": "Americas",
+    "population": 25987
   },
   {
     "flags": {
@@ -3202,7 +4160,13 @@
           "common": "Bolivia"
         }
       }
-    }
+    },
+    "cca2": "BO",
+    "capital": [
+      "Sucre"
+    ],
+    "region": "Americas",
+    "population": 11673029
   },
   {
     "flags": {
@@ -3219,7 +4183,13 @@
           "common": "Togo"
         }
       }
-    }
+    },
+    "cca2": "TG",
+    "capital": [
+      "Lomé"
+    ],
+    "region": "Africa",
+    "population": 8278737
   },
   {
     "flags": {
@@ -3236,7 +4206,13 @@
           "common": "Mayotte"
         }
       }
-    }
+    },
+    "cca2": "YT",
+    "capital": [
+      "Mamoudzou"
+    ],
+    "region": "Africa",
+    "population": 226915
   },
   {
     "flags": {
@@ -3257,7 +4233,13 @@
           "common": "M̧ajeļ"
         }
       }
-    }
+    },
+    "cca2": "MH",
+    "capital": [
+      "Majuro"
+    ],
+    "region": "Oceania",
+    "population": 59194
   },
   {
     "flags": {
@@ -3274,7 +4256,13 @@
           "common": "조선"
         }
       }
-    }
+    },
+    "cca2": "KP",
+    "capital": [
+      "Pyongyang"
+    ],
+    "region": "Asia",
+    "population": 25778815
   },
   {
     "flags": {
@@ -3291,7 +4279,13 @@
           "common": "Nederland"
         }
       }
-    }
+    },
+    "cca2": "NL",
+    "capital": [
+      "Amsterdam"
+    ],
+    "region": "Europe",
+    "population": 16655799
   },
   {
     "flags": {
@@ -3308,7 +4302,13 @@
           "common": "British Indian Ocean Territory"
         }
       }
-    }
+    },
+    "cca2": "IO",
+    "capital": [
+      "Diego Garcia"
+    ],
+    "region": "Africa",
+    "population": 3000
   },
   {
     "flags": {
@@ -3329,7 +4329,13 @@
           "common": "Malta"
         }
       }
-    }
+    },
+    "cca2": "MT",
+    "capital": [
+      "Valletta"
+    ],
+    "region": "Europe",
+    "population": 525285
   },
   {
     "flags": {
@@ -3354,7 +4360,13 @@
           "common": "Moris"
         }
       }
-    }
+    },
+    "cca2": "MU",
+    "capital": [
+      "Port Louis"
+    ],
+    "region": "Africa",
+    "population": 1265740
   },
   {
     "flags": {
@@ -3375,7 +4387,13 @@
           "common": "Norf'k Ailen"
         }
       }
-    }
+    },
+    "cca2": "NF",
+    "capital": [
+      "Kingston"
+    ],
+    "region": "Oceania",
+    "population": 2302
   },
   {
     "flags": {
@@ -3392,7 +4410,13 @@
           "common": "Honduras"
         }
       }
-    }
+    },
+    "cca2": "HN",
+    "capital": [
+      "Tegucigalpa"
+    ],
+    "region": "Americas",
+    "population": 9904608
   },
   {
     "flags": {
@@ -3409,7 +4433,13 @@
           "common": "España"
         }
       }
-    }
+    },
+    "cca2": "ES",
+    "capital": [
+      "Madrid"
+    ],
+    "region": "Europe",
+    "population": 47351567
   },
   {
     "flags": {
@@ -3426,7 +4456,13 @@
           "common": "Eesti"
         }
       }
-    }
+    },
+    "cca2": "EE",
+    "capital": [
+      "Tallinn"
+    ],
+    "region": "Europe",
+    "population": 1331057
   },
   {
     "flags": {
@@ -3447,7 +4483,13 @@
           "common": "Киргизия"
         }
       }
-    }
+    },
+    "cca2": "KG",
+    "capital": [
+      "Bishkek"
+    ],
+    "region": "Asia",
+    "population": 6591600
   },
   {
     "flags": {
@@ -3464,7 +4506,13 @@
           "common": "Chile"
         }
       }
-    }
+    },
+    "cca2": "CL",
+    "capital": [
+      "Santiago"
+    ],
+    "region": "Americas",
+    "population": 19116209
   },
   {
     "flags": {
@@ -3481,7 +4529,13 @@
           "common": "Bermuda"
         }
       }
-    }
+    },
+    "cca2": "BM",
+    "capital": [
+      "Hamilton"
+    ],
+    "region": "Americas",
+    "population": 63903
   },
   {
     "flags": {
@@ -3506,7 +4560,13 @@
           "common": "Guinea Ecuatorial"
         }
       }
-    }
+    },
+    "cca2": "GQ",
+    "capital": [
+      "Malabo"
+    ],
+    "region": "Africa",
+    "population": 1402985
   },
   {
     "flags": {
@@ -3523,7 +4583,13 @@
           "common": "Liberia"
         }
       }
-    }
+    },
+    "cca2": "LR",
+    "capital": [
+      "Monrovia"
+    ],
+    "region": "Africa",
+    "population": 5057677
   },
   {
     "flags": {
@@ -3540,7 +4606,13 @@
           "common": "Pitcairn Islands"
         }
       }
-    }
+    },
+    "cca2": "PN",
+    "capital": [
+      "Adamstown"
+    ],
+    "region": "Oceania",
+    "population": 56
   },
   {
     "flags": {
@@ -3557,7 +4629,13 @@
           "common": "‏ليبيا"
         }
       }
-    }
+    },
+    "cca2": "LY",
+    "capital": [
+      "Tripoli"
+    ],
+    "region": "Africa",
+    "population": 6871287
   },
   {
     "flags": {
@@ -3574,7 +4652,13 @@
           "common": "Liechtenstein"
         }
       }
-    }
+    },
+    "cca2": "LI",
+    "capital": [
+      "Vaduz"
+    ],
+    "region": "Europe",
+    "population": 38137
   },
   {
     "flags": {
@@ -3595,7 +4679,13 @@
           "common": "Vaticanæ"
         }
       }
-    }
+    },
+    "cca2": "VA",
+    "capital": [
+      "Vatican City"
+    ],
+    "region": "Europe",
+    "population": 451
   },
   {
     "flags": {
@@ -3612,7 +4702,13 @@
           "common": "Christmas Island"
         }
       }
-    }
+    },
+    "cca2": "CX",
+    "capital": [
+      "Flying Fish Cove"
+    ],
+    "region": "Oceania",
+    "population": 2072
   },
   {
     "flags": {
@@ -3629,7 +4725,13 @@
           "common": "عمان"
         }
       }
-    }
+    },
+    "cca2": "OM",
+    "capital": [
+      "Muscat"
+    ],
+    "region": "Asia",
+    "population": 5106622
   },
   {
     "flags": {
@@ -3650,7 +4752,13 @@
           "common": "Pilipinas"
         }
       }
-    }
+    },
+    "cca2": "PH",
+    "capital": [
+      "Manila"
+    ],
+    "region": "Asia",
+    "population": 109581085
   },
   {
     "flags": {
@@ -3667,7 +4775,13 @@
           "common": "Polska"
         }
       }
-    }
+    },
+    "cca2": "PL",
+    "capital": [
+      "Warsaw"
+    ],
+    "region": "Europe",
+    "population": 37950802
   },
   {
     "flags": {
@@ -3688,7 +4802,13 @@
           "common": "Føroyar"
         }
       }
-    }
+    },
+    "cca2": "FO",
+    "capital": [
+      "Tórshavn"
+    ],
+    "region": "Europe",
+    "population": 48865
   },
   {
     "flags": {
@@ -3705,7 +4825,13 @@
           "common": "‏البحرين"
         }
       }
-    }
+    },
+    "cca2": "BH",
+    "capital": [
+      "Manama"
+    ],
+    "region": "Asia",
+    "population": 1701583
   },
   {
     "flags": {
@@ -3726,7 +4852,13 @@
           "common": "Беларусь"
         }
       }
-    }
+    },
+    "cca2": "BY",
+    "capital": [
+      "Minsk"
+    ],
+    "region": "Europe",
+    "population": 9398861
   },
   {
     "flags": {
@@ -3743,7 +4875,13 @@
           "common": "Slovenija"
         }
       }
-    }
+    },
+    "cca2": "SI",
+    "capital": [
+      "Ljubljana"
+    ],
+    "region": "Europe",
+    "population": 2100126
   },
   {
     "flags": {
@@ -3760,7 +4898,13 @@
           "common": "Guadeloupe"
         }
       }
-    }
+    },
+    "cca2": "GP",
+    "capital": [
+      "Basse-Terre"
+    ],
+    "region": "Americas",
+    "population": 400132
   },
   {
     "flags": {
@@ -3777,7 +4921,13 @@
           "common": "قطر"
         }
       }
-    }
+    },
+    "cca2": "QA",
+    "capital": [
+      "Doha"
+    ],
+    "region": "Asia",
+    "population": 2881060
   },
   {
     "flags": {
@@ -3794,7 +4944,13 @@
           "common": "Việt Nam"
         }
       }
-    }
+    },
+    "cca2": "VN",
+    "capital": [
+      "Hanoi"
+    ],
+    "region": "Asia",
+    "population": 97338583
   },
   {
     "flags": {
@@ -3811,7 +4967,13 @@
           "common": "موريتانيا"
         }
       }
-    }
+    },
+    "cca2": "MR",
+    "capital": [
+      "Nouakchott"
+    ],
+    "region": "Africa",
+    "population": 4649660
   },
   {
     "flags": {
@@ -3840,7 +5002,13 @@
           "common": "சிங்கப்பூர்"
         }
       }
-    }
+    },
+    "cca2": "SG",
+    "capital": [
+      "Singapore"
+    ],
+    "region": "Asia",
+    "population": 5685807
   },
   {
     "flags": {
@@ -3857,7 +5025,13 @@
           "common": "საქართველო"
         }
       }
-    }
+    },
+    "cca2": "GE",
+    "capital": [
+      "Tbilisi"
+    ],
+    "region": "Asia",
+    "population": 3714000
   },
   {
     "flags": {
@@ -3878,7 +5052,13 @@
           "common": "Uburundi"
         }
       }
-    }
+    },
+    "cca2": "BI",
+    "capital": [
+      "Gitega"
+    ],
+    "region": "Africa",
+    "population": 11890781
   },
   {
     "flags": {
@@ -3899,7 +5079,13 @@
           "common": "Nauru"
         }
       }
-    }
+    },
+    "cca2": "NR",
+    "capital": [
+      "Yaren"
+    ],
+    "region": "Oceania",
+    "population": 10834
   },
   {
     "flags": {
@@ -3916,7 +5102,13 @@
           "common": "South Sudan"
         }
       }
-    }
+    },
+    "cca2": "SS",
+    "capital": [
+      "Juba"
+    ],
+    "region": "Africa",
+    "population": 11193729
   },
   {
     "flags": {
@@ -3937,7 +5129,13 @@
           "common": "Sāmoa"
         }
       }
-    }
+    },
+    "cca2": "WS",
+    "capital": [
+      "Apia"
+    ],
+    "region": "Oceania",
+    "population": 198410
   },
   {
     "flags": {
@@ -3954,7 +5152,13 @@
           "common": "Cocos (Keeling) Islands"
         }
       }
-    }
+    },
+    "cca2": "CC",
+    "capital": [
+      "West Island"
+    ],
+    "region": "Oceania",
+    "population": 544
   },
   {
     "flags": {
@@ -3979,7 +5183,13 @@
           "common": "Republíki ya Kongó"
         }
       }
-    }
+    },
+    "cca2": "CG",
+    "capital": [
+      "Brazzaville"
+    ],
+    "region": "Africa",
+    "population": 5657000
   },
   {
     "flags": {
@@ -4000,7 +5210,13 @@
           "common": "Kıbrıs"
         }
       }
-    }
+    },
+    "cca2": "CY",
+    "capital": [
+      "Nicosia"
+    ],
+    "region": "Europe",
+    "population": 1207361
   },
   {
     "flags": {
@@ -4017,7 +5233,13 @@
           "common": "الكويت"
         }
       }
-    }
+    },
+    "cca2": "KW",
+    "capital": [
+      "Kuwait City"
+    ],
+    "region": "Asia",
+    "population": 4270563
   },
   {
     "flags": {
@@ -4034,7 +5256,13 @@
           "common": "Trinidad and Tobago"
         }
       }
-    }
+    },
+    "cca2": "TT",
+    "capital": [
+      "Port of Spain"
+    ],
+    "region": "Americas",
+    "population": 1399491
   },
   {
     "flags": {
@@ -4055,7 +5283,13 @@
           "common": "Tuvalu"
         }
       }
-    }
+    },
+    "cca2": "TV",
+    "capital": [
+      "Funafuti"
+    ],
+    "region": "Oceania",
+    "population": 11792
   },
   {
     "flags": {
@@ -4072,7 +5306,13 @@
           "common": "Angola"
         }
       }
-    }
+    },
+    "cca2": "AO",
+    "capital": [
+      "Luanda"
+    ],
+    "region": "Africa",
+    "population": 32866268
   },
   {
     "flags": {
@@ -4093,7 +5333,13 @@
           "common": "Tonga"
         }
       }
-    }
+    },
+    "cca2": "TO",
+    "capital": [
+      "Nuku'alofa"
+    ],
+    "region": "Oceania",
+    "population": 105697
   },
   {
     "flags": {
@@ -4110,7 +5356,13 @@
           "common": "Ελλάδα"
         }
       }
-    }
+    },
+    "cca2": "GR",
+    "capital": [
+      "Athens"
+    ],
+    "region": "Europe",
+    "population": 10715549
   },
   {
     "flags": {
@@ -4127,7 +5379,13 @@
           "common": "Moçambique"
         }
       }
-    }
+    },
+    "cca2": "MZ",
+    "capital": [
+      "Maputo"
+    ],
+    "region": "Africa",
+    "population": 31255435
   },
   {
     "flags": {
@@ -4144,7 +5402,13 @@
           "common": "မြန်မာ"
         }
       }
-    }
+    },
+    "cca2": "MM",
+    "capital": [
+      "Naypyidaw"
+    ],
+    "region": "Asia",
+    "population": 54409794
   },
   {
     "flags": {
@@ -4161,7 +5425,13 @@
           "common": "Österreich"
         }
       }
-    }
+    },
+    "cca2": "AT",
+    "capital": [
+      "Vienna"
+    ],
+    "region": "Europe",
+    "population": 8917205
   },
   {
     "flags": {
@@ -4178,7 +5448,13 @@
           "common": "ኢትዮጵያ"
         }
       }
-    }
+    },
+    "cca2": "ET",
+    "capital": [
+      "Addis Ababa"
+    ],
+    "region": "Africa",
+    "population": 114963583
   },
   {
     "flags": {
@@ -4195,7 +5471,13 @@
           "common": "Martinique"
         }
       }
-    }
+    },
+    "cca2": "MQ",
+    "capital": [
+      "Fort-de-France"
+    ],
+    "region": "Americas",
+    "population": 378243
   },
   {
     "flags": {
@@ -4212,7 +5494,13 @@
           "common": "Azərbaycan"
         }
       }
-    }
+    },
+    "cca2": "AZ",
+    "capital": [
+      "Baku"
+    ],
+    "region": "Asia",
+    "population": 10110116
   },
   {
     "flags": {
@@ -4233,7 +5521,13 @@
           "common": "O‘zbekiston"
         }
       }
-    }
+    },
+    "cca2": "UZ",
+    "capital": [
+      "Tashkent"
+    ],
+    "region": "Asia",
+    "population": 34232050
   },
   {
     "flags": {
@@ -4250,7 +5544,13 @@
           "common": "বাংলাদেশ"
         }
       }
-    }
+    },
+    "cca2": "BD",
+    "capital": [
+      "Dhaka"
+    ],
+    "region": "Asia",
+    "population": 164689383
   },
   {
     "flags": {
@@ -4267,7 +5567,13 @@
           "common": "Հայաստան"
         }
       }
-    }
+    },
+    "cca2": "AM",
+    "capital": [
+      "Yerevan"
+    ],
+    "region": "Asia",
+    "population": 2963234
   },
   {
     "flags": {
@@ -4284,7 +5590,13 @@
           "common": "Nigeria"
         }
       }
-    }
+    },
+    "cca2": "NG",
+    "capital": [
+      "Abuja"
+    ],
+    "region": "Africa",
+    "population": 206139587
   },
   {
     "flags": {
@@ -4341,7 +5653,15 @@
           "common": "Ningizimu Afrika"
         }
       }
-    }
+    },
+    "cca2": "ZA",
+    "capital": [
+      "Pretoria",
+      "Bloemfontein",
+      "Cape Town"
+    ],
+    "region": "Africa",
+    "population": 59308690
   },
   {
     "flags": {
@@ -4358,7 +5678,13 @@
           "common": "Negara Brunei Darussalam"
         }
       }
-    }
+    },
+    "cca2": "BN",
+    "capital": [
+      "Bandar Seri Begawan"
+    ],
+    "region": "Asia",
+    "population": 437483
   },
   {
     "flags": {
@@ -4375,7 +5701,13 @@
           "common": "Italia"
         }
       }
-    }
+    },
+    "cca2": "IT",
+    "capital": [
+      "Rome"
+    ],
+    "region": "Europe",
+    "population": 59554023
   },
   {
     "flags": {
@@ -4396,7 +5728,13 @@
           "common": "Finland"
         }
       }
-    }
+    },
+    "cca2": "FI",
+    "capital": [
+      "Helsinki"
+    ],
+    "region": "Europe",
+    "population": 5530719
   },
   {
     "flags": {
@@ -4417,7 +5755,13 @@
           "common": "ישראל"
         }
       }
-    }
+    },
+    "cca2": "IL",
+    "capital": [
+      "Jerusalem"
+    ],
+    "region": "Asia",
+    "population": 9216900
   },
   {
     "flags": {
@@ -4438,7 +5782,13 @@
           "common": "Aruba"
         }
       }
-    }
+    },
+    "cca2": "AW",
+    "capital": [
+      "Oranjestad"
+    ],
+    "region": "Americas",
+    "population": 106766
   },
   {
     "flags": {
@@ -4455,7 +5805,13 @@
           "common": "Nicaragua"
         }
       }
-    }
+    },
+    "cca2": "NI",
+    "capital": [
+      "Managua"
+    ],
+    "region": "Americas",
+    "population": 6624554
   },
   {
     "flags": {
@@ -4476,7 +5832,13 @@
           "common": "Ayiti"
         }
       }
-    }
+    },
+    "cca2": "HT",
+    "capital": [
+      "Port-au-Prince"
+    ],
+    "region": "Americas",
+    "population": 11402533
   },
   {
     "flags": {
@@ -4497,7 +5859,13 @@
           "common": "Kiribati"
         }
       }
-    }
+    },
+    "cca2": "KI",
+    "capital": [
+      "South Tarawa"
+    ],
+    "region": "Oceania",
+    "population": 119446
   },
   {
     "flags": {
@@ -4514,7 +5882,13 @@
           "common": "Turks and Caicos Islands"
         }
       }
-    }
+    },
+    "cca2": "TC",
+    "capital": [
+      "Cockburn Town"
+    ],
+    "region": "Americas",
+    "population": 38718
   },
   {
     "flags": {
@@ -4531,7 +5905,13 @@
           "common": "Cayman Islands"
         }
       }
-    }
+    },
+    "cca2": "KY",
+    "capital": [
+      "George Town"
+    ],
+    "region": "Americas",
+    "population": 65720
   },
   {
     "flags": {
@@ -4548,7 +5928,13 @@
           "common": "Україна"
         }
       }
-    }
+    },
+    "cca2": "UA",
+    "capital": [
+      "Kyiv"
+    ],
+    "region": "Europe",
+    "population": 44134693
   },
   {
     "flags": {
@@ -4565,7 +5951,13 @@
           "common": "México"
         }
       }
-    }
+    },
+    "cca2": "MX",
+    "capital": [
+      "Mexico City"
+    ],
+    "region": "Americas",
+    "population": 128932753
   },
   {
     "flags": {
@@ -4582,7 +5974,14 @@
           "common": "فلسطين"
         }
       }
-    }
+    },
+    "cca2": "PS",
+    "capital": [
+      "Ramallah",
+      "Jerusalem"
+    ],
+    "region": "Asia",
+    "population": 4803269
   },
   {
     "flags": {
@@ -4607,7 +6006,13 @@
           "common": "फिजी"
         }
       }
-    }
+    },
+    "cca2": "FJ",
+    "capital": [
+      "Suva"
+    ],
+    "region": "Oceania",
+    "population": 896444
   },
   {
     "flags": {
@@ -4624,7 +6029,13 @@
           "common": "Slovensko"
         }
       }
-    }
+    },
+    "cca2": "SK",
+    "capital": [
+      "Bratislava"
+    ],
+    "region": "Europe",
+    "population": 5458827
   },
   {
     "flags": {
@@ -4641,7 +6052,13 @@
           "common": "Ghana"
         }
       }
-    }
+    },
+    "cca2": "GH",
+    "capital": [
+      "Accra"
+    ],
+    "region": "Africa",
+    "population": 31072945
   },
   {
     "flags": {
@@ -4658,7 +6075,13 @@
           "common": "Suriname"
         }
       }
-    }
+    },
+    "cca2": "SR",
+    "capital": [
+      "Paramaribo"
+    ],
+    "region": "Americas",
+    "population": 586634
   },
   {
     "flags": {
@@ -4675,7 +6098,13 @@
           "common": "Cuba"
         }
       }
-    }
+    },
+    "cca2": "CU",
+    "capital": [
+      "Havana"
+    ],
+    "region": "Americas",
+    "population": 11326616
   },
   {
     "flags": {
@@ -4692,7 +6121,13 @@
           "common": "འབྲུག་ཡུལ་"
         }
       }
-    }
+    },
+    "cca2": "BT",
+    "capital": [
+      "Thimphu"
+    ],
+    "region": "Asia",
+    "population": 771612
   },
   {
     "flags": {
@@ -4709,7 +6144,13 @@
           "common": "Magyarország"
         }
       }
-    }
+    },
+    "cca2": "HU",
+    "capital": [
+      "Budapest"
+    ],
+    "region": "Europe",
+    "population": 9749763
   },
   {
     "flags": {
@@ -4726,7 +6167,13 @@
           "common": "São Tomé e Príncipe"
         }
       }
-    }
+    },
+    "cca2": "ST",
+    "capital": [
+      "São Tomé"
+    ],
+    "region": "Africa",
+    "population": 219161
   },
   {
     "flags": {
@@ -4751,7 +6198,13 @@
           "common": "کۆماری"
         }
       }
-    }
+    },
+    "cca2": "IQ",
+    "capital": [
+      "Baghdad"
+    ],
+    "region": "Asia",
+    "population": 40222503
   },
   {
     "flags": {
@@ -4772,7 +6225,13 @@
           "common": "Česko"
         }
       }
-    }
+    },
+    "cca2": "CZ",
+    "capital": [
+      "Prague"
+    ],
+    "region": "Europe",
+    "population": 10698896
   },
   {
     "flags": {
@@ -4789,7 +6248,13 @@
           "common": "Lietuva"
         }
       }
-    }
+    },
+    "cca2": "LT",
+    "capital": [
+      "Vilnius"
+    ],
+    "region": "Europe",
+    "population": 2794700
   },
   {
     "flags": {
@@ -4814,7 +6279,13 @@
           "common": "Northern Mariana Islands"
         }
       }
-    }
+    },
+    "cca2": "MP",
+    "capital": [
+      "Saipan"
+    ],
+    "region": "Oceania",
+    "population": 57557
   },
   {
     "flags": {
@@ -4835,7 +6306,13 @@
           "common": "Botswana"
         }
       }
-    }
+    },
+    "cca2": "BW",
+    "capital": [
+      "Gaborone"
+    ],
+    "region": "Africa",
+    "population": 2351625
   },
   {
     "flags": {
@@ -4852,7 +6329,13 @@
           "common": "Panamá"
         }
       }
-    }
+    },
+    "cca2": "PA",
+    "capital": [
+      "Panama City"
+    ],
+    "region": "Americas",
+    "population": 4314768
   },
   {
     "flags": {
@@ -4869,7 +6352,13 @@
           "common": "Gabon"
         }
       }
-    }
+    },
+    "cca2": "GA",
+    "capital": [
+      "Libreville"
+    ],
+    "region": "Africa",
+    "population": 2225728
   },
   {
     "flags": {
@@ -4886,6 +6375,12 @@
           "common": "Ecuador"
         }
       }
-    }
+    },
+    "cca2": "EC",
+    "capital": [
+      "Quito"
+    ],
+    "region": "Americas",
+    "population": 17643060
   }
 ]
