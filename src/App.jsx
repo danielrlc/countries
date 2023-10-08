@@ -9,6 +9,7 @@ function App() {
   const countries = countriesData;
   const [showFilter, setShowFilter] = useState(false);
   const [searchInput, setSearchInput] = useState("");
+  const [region, setRegion] = useState("All");
 
   return (
     <div className="bg-gray-100">
@@ -45,19 +46,52 @@ function App() {
             </button>
             {showFilter && (
               <ul className="bg-white w-64 px-2 py-4 rounded-lg text-sm leading-6 absolute z-10">
-                <li className="px-4 rounded hover:bg-gray-200 cursor-pointer">
+                <li
+                  onClick={() =>
+                    setRegion(region !== "Africa" ? "Africa" : "All")
+                  }
+                  className={`px-4 rounded hover:bg-gray-200 cursor-pointer ${
+                    region === "Africa" && "bg-gray-300 font-semibold"
+                  }`}
+                >
                   Africa
                 </li>
-                <li className="px-4 rounded hover:bg-gray-200 cursor-pointer">
+                <li
+                  onClick={() =>
+                    setRegion(region !== "Americas" ? "Americas" : "All")
+                  }
+                  className={`px-4 rounded hover:bg-gray-200 cursor-pointer ${
+                    region === "Americas" && "bg-gray-300 font-semibold"
+                  }`}
+                >
                   America
                 </li>
-                <li className="px-4 rounded hover:bg-gray-200 cursor-pointer">
+                <li
+                  onClick={() => setRegion(region !== "Asia" ? "Asia" : "All")}
+                  className={`px-4 rounded hover:bg-gray-200 cursor-pointer ${
+                    region === "Asia" && "bg-gray-300 font-semibold"
+                  }`}
+                >
                   Asia
                 </li>
-                <li className="px-4 rounded hover:bg-gray-200 cursor-pointer">
+                <li
+                  onClick={() =>
+                    setRegion(region !== "Europe" ? "Europe" : "All")
+                  }
+                  className={`px-4 rounded hover:bg-gray-200 cursor-pointer ${
+                    region === "Europe" && "bg-gray-300 font-semibold"
+                  }`}
+                >
                   Europe
                 </li>
-                <li className="px-4 rounded hover:bg-gray-200 cursor-pointer">
+                <li
+                  onClick={() =>
+                    setRegion(region !== "Oceania" ? "Oceania" : "All")
+                  }
+                  className={`px-4 rounded hover:bg-gray-200 cursor-pointer ${
+                    region === "Oceania" && "bg-gray-300 font-semibold"
+                  }`}
+                >
                   Oceania
                 </li>
               </ul>
@@ -75,6 +109,7 @@ function App() {
                 .toLowerCase()
                 .includes(searchInput.toLowerCase())
             )
+            .filter((country) => country.region === region || region === "All")
             .map((country) => (
               <li
                 key={country.cca2}
