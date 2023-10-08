@@ -8,6 +8,7 @@ import Moon from "./components/icons/Moon";
 function App() {
   const countries = countriesData;
   const [showFilter, setShowFilter] = useState(false);
+  const [searchInput, setSearchInput] = useState("");
 
   return (
     <div className="bg-gray-100">
@@ -29,6 +30,8 @@ function App() {
             <input
               placeholder="Search for a country..."
               className="h-[55px] w-full max-w-[430px] pl-16 rounded-lg py-4"
+              onChange={(event) => setSearchInput(event.target.value)}
+              value={searchInput}
             />
             <MagnifyingGlass />
           </div>
@@ -42,11 +45,21 @@ function App() {
             </button>
             {showFilter && (
               <ul className="bg-white w-64 px-2 py-4 rounded-lg text-sm leading-6 absolute z-10">
-                <li className="px-4 rounded hover:bg-gray-200 cursor-pointer">Africa</li>
-                <li className="px-4 rounded hover:bg-gray-200 cursor-pointer">America</li>
-                <li className="px-4 rounded hover:bg-gray-200 cursor-pointer">Asia</li>
-                <li className="px-4 rounded hover:bg-gray-200 cursor-pointer">Europe</li>
-                <li className="px-4 rounded hover:bg-gray-200 cursor-pointer">Oceania</li>
+                <li className="px-4 rounded hover:bg-gray-200 cursor-pointer">
+                  Africa
+                </li>
+                <li className="px-4 rounded hover:bg-gray-200 cursor-pointer">
+                  America
+                </li>
+                <li className="px-4 rounded hover:bg-gray-200 cursor-pointer">
+                  Asia
+                </li>
+                <li className="px-4 rounded hover:bg-gray-200 cursor-pointer">
+                  Europe
+                </li>
+                <li className="px-4 rounded hover:bg-gray-200 cursor-pointer">
+                  Oceania
+                </li>
               </ul>
             )}
           </div>
@@ -56,37 +69,43 @@ function App() {
       {/* Countries and flags */}
       <main className="bg-gray-100 px-16">
         <ul className="grid gap-[70px] grid-cols-[repeat(auto-fill,_250px)] justify-center">
-          {countries.map((country) => (
-            <li
-              key={country.cca2}
-              className="bg-white w-[250px] rounded shadow shadow-gray-300"
-            >
-              <img
-                className="w-full h-[150px] rounded-t"
-                src={country.flags.png}
-                alt={`${country.name.common} flag`}
-              />
-              <div className="p-6">
-                <div className="text-lg font-extrabold mb-3">
-                  {country.name.common}
+          {countries
+            .filter((country) =>
+              country.name.common
+                .toLowerCase()
+                .includes(searchInput.toLowerCase())
+            )
+            .map((country) => (
+              <li
+                key={country.cca2}
+                className="bg-white w-[250px] rounded shadow shadow-gray-300"
+              >
+                <img
+                  className="w-full h-[150px] rounded-t"
+                  src={country.flags.png}
+                  alt={`${country.name.common} flag`}
+                />
+                <div className="p-6">
+                  <div className="text-lg font-extrabold mb-3">
+                    {country.name.common}
+                  </div>
+                  <div className="text-sm leading-6 mb-4">
+                    <div>
+                      <span className="font-semibold">Population:</span>{" "}
+                      {country.population}
+                    </div>
+                    <div>
+                      <span className="font-semibold">Region:</span>{" "}
+                      {country.region}
+                    </div>
+                    <div>
+                      <span className="font-semibold">Capital:</span>{" "}
+                      {country.capital}
+                    </div>
+                  </div>
                 </div>
-                <div className="text-sm leading-6 mb-4">
-                  <div>
-                    <span className="font-semibold">Population:</span>{" "}
-                    {country.population}
-                  </div>
-                  <div>
-                    <span className="font-semibold">Region:</span>{" "}
-                    {country.region}
-                  </div>
-                  <div>
-                    <span className="font-semibold">Capital:</span>{" "}
-                    {country.capital}
-                  </div>
-                </div>
-              </div>
-            </li>
-          ))}
+              </li>
+            ))}
         </ul>
       </main>
     </div>
