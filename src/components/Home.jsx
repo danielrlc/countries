@@ -1,11 +1,11 @@
 import { useState } from "react";
 import countriesData from "../../data/countries.json";
+import Header from "./Header";
 import ChevronUp from "./icons/ChevronUp";
 import ChevronDown from "./icons/ChevronDown";
 import MagnifyingGlass from "./icons/MagnifyingGlass";
-import Moon from "./icons/Moon";
 
-export default function Home({ setView }) {
+export default function Home({ viewCountry }) {
   const countries = countriesData;
   const [showFilter, setShowFilter] = useState(false);
   const [searchInput, setSearchInput] = useState("");
@@ -13,16 +13,7 @@ export default function Home({ setView }) {
 
   return (
     <div className="bg-gray-100">
-      {/* Header: Where in the world? and Dark Mode */}
-      <header className="flex justify-center bg-white shadow-md shadow-gray-200 relative px-4">
-        <div className="w-full lg:max-w-[1210px] flex items-center justify-between h-20">
-          <h1 className="font-extrabold">Where in the world?</h1>
-          <div className="flex">
-            <Moon />
-            <div className="font-semibold text-xs">Dark Mode</div>
-          </div>
-        </div>
-      </header>
+      <Header />
 
       {/* Search for a country & Filter by region */}
       <div className="px-4 py-8">
@@ -105,7 +96,7 @@ export default function Home({ setView }) {
         <ul className="grid gap-[70px] grid-cols-[repeat(auto-fill,_250px)] justify-center">
           {countries
             .filter((country) =>
-              country.name.common
+              country.name
                 .toLowerCase()
                 .includes(searchInput.toLowerCase())
             )
@@ -114,16 +105,16 @@ export default function Home({ setView }) {
               <li
                 key={country.cca2}
                 className="bg-white w-[250px] rounded shadow shadow-gray-300"
-                onClick={() => setView("CountryDetails")}
+                onClick={() => viewCountry(country)}
               >
                 <img
                   className="w-full h-[150px] rounded-t"
                   src={country.flags.png}
-                  alt={`${country.name.common} flag`}
+                  alt={`${country.name} flag`}
                 />
                 <div className="p-6">
                   <div className="text-lg font-extrabold mb-3">
-                    {country.name.common}
+                    {country.name}
                   </div>
                   <div className="text-sm leading-6 mb-4">
                     <div>

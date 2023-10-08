@@ -4,9 +4,16 @@ import CountryDetails from "./components/CountryDetails";
 
 export default function App() {
   const [view, setView] = useState("Home");
+  const [country, setCountry] = useState("");
+
+  function viewCountry(country) {
+    setCountry(country)
+    setView("CountryDetails");
+  }
+
   return view === "Home" ? (
-    <Home setView={setView} />
+    <Home viewCountry={viewCountry} />
   ) : (
-    <CountryDetails setView={setView} />
+    <CountryDetails setView={setView} country={country} />
   );
 }
