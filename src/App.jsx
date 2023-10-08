@@ -1,62 +1,65 @@
+import { useState } from "react";
 import countriesData from "../data/countries.json";
+import ChevronUp from "./components/icons/ChevronUp";
+import ChevronDown from "./components/icons/ChevronDown";
+import MagnifyingGlass from "./components/icons/MagnifyingGlass";
+import Moon from "./components/icons/Moon";
 
 function App() {
   const countries = countriesData;
+  const [showFilter, setShowFilter] = useState(false);
 
   return (
     <div className="bg-gray-100">
-      <header className="flex justify-center bg-white shadow-md shadow-gray-200 relative">
-        <div className="w-full lg:max-w-[1210px] px-4 cols4:px-0 flex items-center justify-between h-20">
-          <h1 className="font-extrabold text-2xl">Where in the world?</h1>
+      {/* Header: Where in the world? and Dark Mode */}
+      <header className="flex justify-center bg-white shadow-md shadow-gray-200 relative px-4">
+        <div className="w-full lg:max-w-[1210px] flex items-center justify-between h-20">
+          <h1 className="font-extrabold">Where in the world?</h1>
           <div className="flex">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-[18px] h-[18px] mr-2 relative top-[3px]"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z"
-              />
-            </svg>
-            <div className="font-semibold">Dark Mode</div>
+            <Moon />
+            <div className="font-semibold text-xs">Dark Mode</div>
           </div>
         </div>
       </header>
 
-      <div className="flex justify-center my-12">
-        <div className="w-full max-w-[1210px] flex items-center relative">
-          <input
-            placeholder="Search for a country..."
-            className="h-[55px] w-[430px] pl-16 rounded-lg py-4"
-          />
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-5 h-5 absolute ml-7"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+      {/* Search for a country & Filter by region */}
+      <div className="px-4 py-8">
+        <div className="xl:flex xl:items-center xl:justify-between xl:w-full xl:max-w-[1210px] mx-auto">
+          <div className="flex items-center relative mb-12">
+            <input
+              placeholder="Search for a country..."
+              className="h-[55px] w-full max-w-[430px] pl-16 rounded-lg py-4"
             />
-          </svg>
+            <MagnifyingGlass />
+          </div>
+          <div className="relative">
+            <button
+              onClick={() => setShowFilter(!showFilter)}
+              className="h-[55px] w-64 px-6 bg-white rounded-lg text-sm flex items-center justify-between mb-1 hover:bg-gray-200"
+            >
+              Filter by Region
+              {showFilter ? <ChevronUp /> : <ChevronDown />}
+            </button>
+            {showFilter && (
+              <ul className="bg-white w-64 px-2 py-4 rounded-lg text-sm leading-6 absolute z-10">
+                <li className="px-4 rounded hover:bg-gray-200 cursor-pointer">Africa</li>
+                <li className="px-4 rounded hover:bg-gray-200 cursor-pointer">America</li>
+                <li className="px-4 rounded hover:bg-gray-200 cursor-pointer">Asia</li>
+                <li className="px-4 rounded hover:bg-gray-200 cursor-pointer">Europe</li>
+                <li className="px-4 rounded hover:bg-gray-200 cursor-pointer">Oceania</li>
+              </ul>
+            )}
+          </div>
         </div>
       </div>
 
-      <main className="bg-gray-100 p-16">
+      {/* Countries and flags */}
+      <main className="bg-gray-100 px-16">
         <ul className="grid gap-[70px] grid-cols-[repeat(auto-fill,_250px)] justify-center">
           {countries.map((country) => (
             <li
               key={country.cca2}
-              className="bg-white w-[250px] rounded z-10 shadow shadow-gray-300"
+              className="bg-white w-[250px] rounded shadow shadow-gray-300"
             >
               <img
                 className="w-full h-[150px] rounded-t"
