@@ -1,27 +1,23 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
-import countriesData from "../../data/countries.json";
-import Header from "./Header";
 import ChevronUp from "./icons/ChevronUp";
 import ChevronDown from "./icons/ChevronDown";
 import MagnifyingGlass from "./icons/MagnifyingGlass";
 
-export default function Home({ viewCountry }) {
-  const countries = countriesData;
+export default function Home({ viewCountry, countriesData }) {
   const [showFilter, setShowFilter] = useState(false);
   const [searchInput, setSearchInput] = useState("");
   const [region, setRegion] = useState("All");
 
   return (
-    <div className="bg-gray-100">
-      <Header />
-
+    <>
       {/* Search for a country & Filter by region */}
       <div className="px-4 py-8">
         <div className="xl:flex xl:items-center xl:justify-between xl:w-full xl:max-w-[1210px] mx-auto">
           <div className="flex items-center relative mb-12">
             <input
               placeholder="Search for a country..."
-              className="h-[55px] w-full max-w-[430px] pl-16 rounded-lg py-4"
+              className="h-[55px] w-full max-w-[430px] pl-16 rounded-lg py-4 text-darkGray dark:text-white bg-white dark:bg-darkBlue"
               onChange={(event) => setSearchInput(event.target.value)}
               value={searchInput}
             />
@@ -30,61 +26,31 @@ export default function Home({ viewCountry }) {
           <div className="relative">
             <button
               onClick={() => setShowFilter(!showFilter)}
-              className="h-[55px] w-64 px-6 bg-white rounded-lg text-sm flex items-center justify-between mb-1 hover:bg-gray-200"
+              className="h-[55px] w-64 px-6 bg-white dark:bg-darkBlue rounded-lg text-sm flex items-center justify-between mb-1 hover:bg-gray-200"
             >
               Filter by Region
               {showFilter ? <ChevronUp /> : <ChevronDown />}
             </button>
             {showFilter && (
-              <ul className="bg-white w-64 px-2 py-4 rounded-lg text-sm leading-6 absolute z-10">
-                <li
-                  onClick={() =>
-                    setRegion(region !== "Africa" ? "Africa" : "All")
+              <ul className="bg-white dark:bg-darkBlue w-64 px-2 py-4 rounded-lg text-sm leading-6 absolute z-10">
+                {["Africa", "Americas", "Asia", "Europe", "Oceania"].map(
+                  (country) => {
+                    return (
+                      <li
+                        key={country}
+                        onClick={() =>
+                          setRegion(region !== country ? country : "All")
+                        }
+                        className={`px-4 rounded hover:bg-gray-200 hover:dark:bg-vDarkBlue cursor-pointer ${
+                          region === country &&
+                          "bg-gray-300 dark:bg-vDarkBlue font-semibold"
+                        }`}
+                      >
+                        {country}
+                      </li>
+                    );
                   }
-                  className={`px-4 rounded hover:bg-gray-200 cursor-pointer ${
-                    region === "Africa" && "bg-gray-300 font-semibold"
-                  }`}
-                >
-                  Africa
-                </li>
-                <li
-                  onClick={() =>
-                    setRegion(region !== "Americas" ? "Americas" : "All")
-                  }
-                  className={`px-4 rounded hover:bg-gray-200 cursor-pointer ${
-                    region === "Americas" && "bg-gray-300 font-semibold"
-                  }`}
-                >
-                  America
-                </li>
-                <li
-                  onClick={() => setRegion(region !== "Asia" ? "Asia" : "All")}
-                  className={`px-4 rounded hover:bg-gray-200 cursor-pointer ${
-                    region === "Asia" && "bg-gray-300 font-semibold"
-                  }`}
-                >
-                  Asia
-                </li>
-                <li
-                  onClick={() =>
-                    setRegion(region !== "Europe" ? "Europe" : "All")
-                  }
-                  className={`px-4 rounded hover:bg-gray-200 cursor-pointer ${
-                    region === "Europe" && "bg-gray-300 font-semibold"
-                  }`}
-                >
-                  Europe
-                </li>
-                <li
-                  onClick={() =>
-                    setRegion(region !== "Oceania" ? "Oceania" : "All")
-                  }
-                  className={`px-4 rounded hover:bg-gray-200 cursor-pointer ${
-                    region === "Oceania" && "bg-gray-300 font-semibold"
-                  }`}
-                >
-                  Oceania
-                </li>
+                )}
               </ul>
             )}
           </div>
@@ -92,19 +58,17 @@ export default function Home({ viewCountry }) {
       </div>
 
       {/* Countries and flags */}
-      <main className="bg-gray-100 px-16">
+      <main className="px-16">
         <ul className="grid gap-[70px] grid-cols-[repeat(auto-fill,_250px)] justify-center">
-          {countries
+          {countriesData
             .filter((country) =>
-              country.name
-                .toLowerCase()
-                .includes(searchInput.toLowerCase())
+              country.name.toLowerCase().includes(searchInput.toLowerCase())
             )
             .filter((country) => country.region === region || region === "All")
             .map((country) => (
               <li
-                key={country.cca2}
-                className="bg-white w-[250px] rounded shadow shadow-gray-300"
+                key={country.alpha2Code}
+                className="bg-white dark:bg-darkBlue w-[250px] rounded shadow shadow-gray-300 dark:shadow-none"
                 onClick={() => viewCountry(country)}
               >
                 <img
@@ -135,6 +99,6 @@ export default function Home({ viewCountry }) {
             ))}
         </ul>
       </main>
-    </div>
+    </>
   );
 }
