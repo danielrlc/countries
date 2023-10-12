@@ -17,11 +17,12 @@ export default function App() {
   return (
     <div className={darkMode && "dark"}>
       <div
-        className={
+        className={`min-h-screen ${
           darkMode
             ? "dark:text-white dark:bg-vDarkBlue"
             : "text-vDarkBlue bg-vlightGray"
         }
+        `}
       >
         <Header darkMode={darkMode} setDarkMode={setDarkMode} />
         {view === "Home" ? (

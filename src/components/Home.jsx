@@ -13,9 +13,10 @@ export default function Home({ viewCountry, countriesData }) {
     <>
       {/* Search for a country & Filter by region */}
       <div className="px-4 py-8">
-        <div className="xl:flex xl:items-center xl:justify-between xl:w-full xl:max-w-[1210px] mx-auto">
-          <div className="flex items-center relative mb-12">
+        <div className="max-w-[1210px] mx-auto xl:flex xl:items-center xl:justify-between xl:w-full">
+          <div className="flex items-center relative mb-12 xl:mb-0">
             <input
+              autoFocus
               placeholder="Search for a country..."
               className="h-[55px] w-full max-w-[430px] pl-16 rounded-lg py-4 text-darkGray dark:text-white bg-white dark:bg-darkBlue"
               onChange={(event) => setSearchInput(event.target.value)}
@@ -58,8 +59,8 @@ export default function Home({ viewCountry, countriesData }) {
       </div>
 
       {/* Countries and flags */}
-      <main className="px-16">
-        <ul className="grid gap-[70px] grid-cols-[repeat(auto-fill,_250px)] justify-center">
+      <main className="px-4 pb-32">
+        <ul className="grid gap-[70px] grid-cols-[repeat(auto-fill,_250px)] justify-center max-w-[1210px] mx-auto">
           {countriesData
             .filter((country) =>
               country.name.toLowerCase().includes(searchInput.toLowerCase())
