@@ -26,7 +26,11 @@ export default function App() {
       >
         <Header darkMode={darkMode} setDarkMode={setDarkMode} />
         {view === "Home" ? (
-          <Home viewCountry={viewCountry} countriesData={countriesData} />
+          <Home
+            darkMode={darkMode}
+            viewCountry={viewCountry}
+            countriesData={countriesData}
+          />
         ) : (
           <CountryDetails
             countriesData={countriesData}

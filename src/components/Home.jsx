@@ -1,13 +1,19 @@
 /* eslint-disable react/prop-types */
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import ChevronUp from "./icons/ChevronUp";
 import ChevronDown from "./icons/ChevronDown";
 import MagnifyingGlass from "./icons/MagnifyingGlass";
 
-export default function Home({ viewCountry, countriesData }) {
+export default function Home({ darkMode, viewCountry, countriesData }) {
   const [showFilter, setShowFilter] = useState(false);
   const [searchInput, setSearchInput] = useState("");
   const [region, setRegion] = useState("All");
+
+  const countrySearchBox = useCallback((inputElement) => {
+    if (inputElement) {
+      inputElement.focus();
+    }
+  }, [darkMode]);
 
   return (
     <>
@@ -16,7 +22,7 @@ export default function Home({ viewCountry, countriesData }) {
         <div className="max-w-[1210px] mx-auto xl:flex xl:items-center xl:justify-between xl:w-full">
           <div className="flex items-center relative mb-12 xl:mb-0">
             <input
-              autoFocus
+              ref={countrySearchBox}
               placeholder="Search for a country..."
               className="h-[55px] w-full max-w-[430px] pl-16 rounded-lg py-4 text-darkGray dark:text-white bg-white dark:bg-darkBlue"
               onChange={(event) => setSearchInput(event.target.value)}
