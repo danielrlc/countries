@@ -19,8 +19,8 @@ export default function Home({ darkMode, viewCountry, countriesData }) {
     <>
       {/* Search for a country & Filter by region */}
       <div className="px-4 py-8">
-        <div className="max-w-[1210px] mx-auto xl:flex xl:items-center xl:justify-between xl:w-full">
-          <div className="flex items-center relative mb-12 xl:mb-0">
+        <div className="max-w-[1210px] mx-auto cols3:flex cols3:items-center cols3:justify-between cols3:w-full">
+          <div className="flex items-center relative mb-12 cols3:mb-0">
             <input
               ref={countrySearchBox}
               placeholder="Search for a country..."
@@ -96,10 +96,12 @@ export default function Home({ darkMode, viewCountry, countriesData }) {
                       <span className="font-semibold">Region:</span>{" "}
                       {country.region}
                     </div>
-                    <div>
-                      <span className="font-semibold">Capital:</span>{" "}
-                      {country.capital}
-                    </div>
+                    {country.capital && (
+                      <div>
+                        <span className="font-semibold">Capital:</span>{" "}
+                        {country.capital}
+                      </div>
+                    )}
                   </div>
                 </div>
               </li>

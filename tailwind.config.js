@@ -17,7 +17,15 @@ export default {
         vlightGray: "hsl(0, 0%, 98%)",
         // dark mode text & light mode elements
         white: "hsl(0, 0%, 100%)",
-      }
+      },
+      screens: {
+        // 16 + 250 + 70 + 250 + 70 + 250 + 16 = 912
+        // => @media (min-width: 912px) { ... }
+        'cols3': '912px',
+        // 16 + 250 + 70 + 250 + 70 + 250 + 70 + 250 + 16 = 1242
+        // => @media (min-width: 1242px) { ... }
+        'cols4': '1242px',
+      },
     },
   },
   plugins: [],
