@@ -16,28 +16,27 @@ export default function CountryDetails({
 
   return (
     <>
-      <div className="max-lg:px-4 pt-8 lg:pt-12 lg:pb-4 max-w-[1210px] lg:mx-auto">
+      <div className="max-lg:px-6 pt-8 lg:pt-12 lg:pb-4 max-w-[1210px] lg:mx-auto">
         <button
           onClick={() => setView("home")}
-          className="flex items-center mb-12 px-6 py-1 bg-white dark:bg-darkBlue shadow-md shadow-gray-400 dark:shadow-none"
+          className="flex items-center mb-12 px-6 py-1 bg-white dark:bg-darkBlue shadow shadow-gray-400 dark:shadow-none"
         >
           <ArrowLeft /> <span className="ml-3">Back</span>
         </button>
       </div>
 
-      <div className="lg:flex max-w-[1210px] lg:mx-auto gap-[120px]">
+      <div className="lg:flex max-w-[1210px] lg:mx-auto gap-[120px] max-lg:px-6 max-lg:mb-12">
         <img
-          className="w-[340px] lg:w-[562px] shrink-0 max-lg:mx-auto max-lg:mt-16 mb-4"
+          className="w-[340px] lg:w-[562px] lg:h-[406px] shrink-0 max-lg:mt-16 mb-4 shadow-md shadow-gray-300 dark-shadow:none"
           src={country.flags.png}
           alt={`${country.name} flag`}
         />
-        <div className="max-lg:p-6 lg:flex lg:items-center -mt-4">
+        <div className="lg:flex lg:items-center">
           <div>
-            <div className="text-lg lg:text-3xl font-extrabold mb-6">
+            <div className="text-2xl lg:text-3xl font-extrabold mb-6">
               {country.name}
             </div>
             <div className="lg:flex">
-              {/* 1st column - desktop */}
               <div className="text-sm leading-8 mb-8 lg:w-[350px]">
                 <div>
                   <span className="font-semibold">Native Name:</span>{" "}
@@ -61,7 +60,6 @@ export default function CountryDetails({
                 </div>
               </div>
 
-              {/* 2nd column - desktop */}
               <div className="text-sm leading-8 mb-4">
                 <div>
                   <span className="font-semibold">Top Level Domain:</span>{" "}

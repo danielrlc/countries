@@ -48,22 +48,23 @@ export default function Home({ mode, viewCountry, countriesData }) {
                 {["Africa", "Americas", "Asia", "Europe", "Oceania"].map(
                   (regionOption) => {
                     return (
-                      <li
-                        key={regionOption}
-                        onClick={() =>
-                          setRegion(
-                            region !== regionOption ? regionOption : "All"
-                          )
-                        }
-                        className={`flex px-4 rounded hover:bg-gray-200 hover:dark:bg-vDarkBlue cursor-pointer ${
-                          region === regionOption &&
-                          "bg-gray-300 dark:bg-vDarkBlue font-semibold"
-                        }`}
-                      >
-                        {regionOption}{" "}
-                        <span className="pl-2">
-                          {region === regionOption && <Check />}
-                        </span>
+                      <li key={regionOption}>
+                        <button
+                          onClick={() =>
+                            setRegion(
+                              region !== regionOption ? regionOption : "All"
+                            )
+                          }
+                          className={`flex px-4 rounded hover:bg-gray-200 hover:dark:bg-vDarkBlue cursor-pointer ${
+                            region === regionOption &&
+                            "bg-gray-300 dark:bg-vDarkBlue font-semibold"
+                          }`}
+                        >
+                          {regionOption}{" "}
+                          <span className="pl-2">
+                            {region === regionOption && <Check />}
+                          </span>
+                        </button>
                       </li>
                     );
                   }
@@ -83,37 +84,38 @@ export default function Home({ mode, viewCountry, countriesData }) {
             )
             .filter((country) => country.region === region || region === "All")
             .map((country) => (
-              <li
-                key={country.alpha2Code}
-                className="bg-white dark:bg-darkBlue w-[250px] rounded shadow shadow-gray-300 dark:shadow-none"
-                onClick={() => viewCountry(country)}
-              >
-                <img
-                  className="w-full h-[150px] rounded-t"
-                  src={country.flags.png}
-                  alt={`${country.name} flag`}
-                />
-                <div className="p-6">
-                  <div className="text-lg font-extrabold mb-3">
-                    {country.name}
-                  </div>
-                  <div className="text-sm leading-6 mb-4">
-                    <div>
-                      <span className="font-semibold">Population:</span>{" "}
-                      {country.population}
+              <li key={country.alpha2Code}>
+                <button
+                  className="bg-white dark:bg-darkBlue w-[250px] rounded shadow shadow-gray-300 dark:shadow-none"
+                  onClick={() => viewCountry(country)}
+                >
+                  <img
+                    className="w-full h-[150px] rounded-t"
+                    src={country.flags.png}
+                    alt={`${country.name} flag`}
+                  />
+                  <div className="p-6">
+                    <div className="text-lg font-extrabold mb-3">
+                      {country.name}
                     </div>
-                    <div>
-                      <span className="font-semibold">Region:</span>{" "}
-                      {country.region}
-                    </div>
-                    {country.capital && (
+                    <div className="text-sm leading-6 mb-4">
                       <div>
-                        <span className="font-semibold">Capital:</span>{" "}
-                        {country.capital}
+                        <span className="font-semibold">Population:</span>{" "}
+                        {country.population}
                       </div>
-                    )}
+                      <div>
+                        <span className="font-semibold">Region:</span>{" "}
+                        {country.region}
+                      </div>
+                      {country.capital && (
+                        <div>
+                          <span className="font-semibold">Capital:</span>{" "}
+                          {country.capital}
+                        </div>
+                      )}
+                    </div>
                   </div>
-                </div>
+                </button>
               </li>
             ))}
         </ul>

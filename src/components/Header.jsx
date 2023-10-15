@@ -6,10 +6,10 @@ export default function Header({ setView, mode, flipMode }) {
   return (
     <header className="flex justify-center dark:bg-darkBlue shadow-md shadow-gray-200 dark:shadow-none relative px-4">
       <div className="w-full lg:max-w-[1210px] flex items-center justify-between h-20">
-        <h1 onClick={() => setView('home')} className="cursor-pointer font-extrabold xl:text-xl">Where in the world?</h1>
-        <button onClick={flipMode} className="flex cursor-pointer p-1">
+        <h1 onClick={() => setView('home')} className="cursor-pointer font-extrabold lg:text-2xl">Where in the world?</h1>
+        <button onClick={flipMode} className="flex items-center cursor-pointer p-1">
           {mode === "light" ? <Moon /> : <Sun />}
-          <span className="font-semibold text-xs">
+          <span className="font-semibold text-xs lg:text-sm ml-2">
             {mode === "light" ? "Dark Mode" : "Light Mode"}
           </span>
         </button>

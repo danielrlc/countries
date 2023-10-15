@@ -6,7 +6,7 @@ export default function Sun() {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className="w-[14px] h-[14px] mr-2 relative top-[1px]"
+      className="w-[14px] h-[14px]"
     >
       <path
         strokeLinecap="round"
