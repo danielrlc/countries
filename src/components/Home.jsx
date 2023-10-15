@@ -1,26 +1,31 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable react/prop-types */
 import { useState, useCallback } from "react";
+import Check from "./icons/Check";
 import ChevronUp from "./icons/ChevronUp";
 import ChevronDown from "./icons/ChevronDown";
 import MagnifyingGlass from "./icons/MagnifyingGlass";
 
-export default function Home({ darkMode, viewCountry, countriesData }) {
+export default function Home({ mode, viewCountry, countriesData }) {
   const [showFilter, setShowFilter] = useState(false);
   const [searchInput, setSearchInput] = useState("");
   const [region, setRegion] = useState("All");
 
-  const countrySearchBox = useCallback((inputElement) => {
-    if (inputElement) {
-      inputElement.focus();
-    }
-  }, [darkMode]);
+  const countrySearchBox = useCallback(
+    (inputElement) => {
+      if (inputElement) {
+        inputElement.focus();
+      }
+    },
+    [mode]
+  );
 
   return (
     <>
       {/* Search for a country & Filter by region */}
       <div className="px-4 py-8">
-        <div className="max-w-[1210px] mx-auto cols3:flex cols3:items-center cols3:justify-between cols3:w-full">
-          <div className="flex items-center relative mb-12 cols3:mb-0">
+        <div className="max-w-[1210px] mx-auto md:flex md:items-center md:justify-between md:w-full">
+          <div className="flex items-center relative mb-12 md:mb-0">
             <input
               ref={countrySearchBox}
               placeholder="Search for a country..."
@@ -41,19 +46,24 @@ export default function Home({ darkMode, viewCountry, countriesData }) {
             {showFilter && (
               <ul className="bg-white dark:bg-darkBlue w-64 px-2 py-4 rounded-lg text-sm leading-6 absolute z-10">
                 {["Africa", "Americas", "Asia", "Europe", "Oceania"].map(
-                  (country) => {
+                  (regionOption) => {
                     return (
                       <li
-                        key={country}
+                        key={regionOption}
                         onClick={() =>
-                          setRegion(region !== country ? country : "All")
+                          setRegion(
+                            region !== regionOption ? regionOption : "All"
+                          )
                         }
-                        className={`px-4 rounded hover:bg-gray-200 hover:dark:bg-vDarkBlue cursor-pointer ${
-                          region === country &&
+                        className={`flex px-4 rounded hover:bg-gray-200 hover:dark:bg-vDarkBlue cursor-pointer ${
+                          region === regionOption &&
                           "bg-gray-300 dark:bg-vDarkBlue font-semibold"
                         }`}
                       >
-                        {country}
+                        {regionOption}{" "}
+                        <span className="pl-2">
+                          {region === regionOption && <Check />}
+                        </span>
                       </li>
                     );
                   }
