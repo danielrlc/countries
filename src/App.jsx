@@ -35,9 +35,9 @@ export default function App() {
     <div className={mode}>
       <div
         className={`min-h-screen ${
-          mode
-            ? "dark:text-white dark:bg-vDarkBlue"
-            : "text-vDarkBlue bg-vLightGray"
+          mode === "light"
+            ? "text-vDarkBlue bg-vLightGray"
+            : "dark:text-white dark:bg-vDarkBlue"
         }
         `}
       >

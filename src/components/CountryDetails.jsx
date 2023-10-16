@@ -27,7 +27,7 @@ export default function CountryDetails({
 
       <div className="lg:flex max-w-[1210px] lg:mx-auto gap-[120px] max-lg:px-6 max-lg:mb-12">
         <img
-          className="w-[340px] lg:w-[562px] lg:h-[406px] shrink-0 max-lg:mt-16 mb-4 shadow-md shadow-gray-300 dark-shadow:none"
+          className="w-[340px] lg:w-[562px] lg:h-[406px] shrink-0 max-lg:mt-16 mb-4 shadow-md shadow-gray-300 dark:shadow-none"
           src={country.flags.png}
           alt={`${country.name} flag`}
         />

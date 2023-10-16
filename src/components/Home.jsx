@@ -44,7 +44,7 @@ export default function Home({ mode, viewCountry, countriesData }) {
               {showFilter ? <ChevronUp /> : <ChevronDown />}
             </button>
             {showFilter && (
-              <ul className="bg-white dark:bg-darkBlue w-64 px-2 py-4 rounded-lg text-sm leading-6 absolute z-10">
+              <ul className="dark:bg-darkBlue w-64 px-2 py-4 rounded-lg text-sm leading-6 absolute z-10">
                 {["Africa", "Americas", "Asia", "Europe", "Oceania"].map(
                   (regionOption) => {
                     return (
@@ -86,7 +86,7 @@ export default function Home({ mode, viewCountry, countriesData }) {
             .map((country) => (
               <li key={country.alpha2Code}>
                 <button
-                  className="bg-white dark:bg-darkBlue w-[250px] rounded shadow shadow-gray-300 dark:shadow-none"
+                  className="bg-white dark:bg-darkBlue w-[250px] rounded shadow shadow-gray-200 dark:shadow-none"
                   onClick={() => viewCountry(country)}
                 >
                   <img
