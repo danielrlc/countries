@@ -24,9 +24,9 @@ export default function Home({ mode, viewCountry, countriesData }) {
     <>
       {/* Search for a country & Filter by region */}
       {/* outer wrapper */}
-      <div className="px-4 pt-8">
+      <div className="px-4 pt-12">
         {/* inner wrapper */}
-        <div className="max-w-[1284px] mx-auto md:flex md:items-center md:justify-between md:w-full mb-12 lg:mb-8">
+        <div className="max-w-[1284px] mx-auto md:flex md:items-center md:justify-between md:w-full mb-12 lg:mb-12">
           {/* Search for a country */}
           <div className="flex items-center relative mb-12 md:mb-0">
             <input

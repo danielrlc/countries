@@ -9,7 +9,7 @@ export default function Header({ setView, mode, flipMode }) {
         <h1 onClick={() => setView('home')} className="cursor-pointer font-extrabold lg:text-2xl">Where in the world?</h1>
         <button onClick={flipMode} className="flex items-center cursor-pointer p-1">
           {mode === "light" ? <Moon /> : <Sun />}
-          <span className="font-semibold text-xs lg:text-sm ml-2">
+          <span className="font-semibold text-sm lg:text-md ml-2">
             {mode === "light" ? "Dark Mode" : "Light Mode"}
           </span>
         </button>
