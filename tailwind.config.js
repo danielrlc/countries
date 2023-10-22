@@ -4,12 +4,12 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     screens: {
-      // 16 + 250 + 70 + 250 + 70 + 250 + 16 = 912
-      // => @media (min-width: 912px) { ... }
-      'md': '912px',
-      // 16 + 250 + 70 + 250 + 70 + 250 + 70 + 250 + 16 = 1242
-      // => @media (min-width: 1242px) { ... }
-      'lg': '1242px',
+      // 16 + 267 + 72 + 267 + 72 + 267 + 16 = 977
+      // => @media (min-width: 977px) { ... }
+      'md': '977px',
+      // 16 + 267 + 72 + 267 + 72 + 267 + 72 + 267 + 16 = 1316
+      // => @media (min-width: 1316px) { ... }
+      'lg': '1316px',
     },
 
     extend: {

@@ -23,8 +23,11 @@ export default function Home({ mode, viewCountry, countriesData }) {
   return (
     <>
       {/* Search for a country & Filter by region */}
-      <div className="px-4 py-8">
-        <div className="max-w-[1210px] mx-auto md:flex md:items-center md:justify-between md:w-full">
+      {/* outer wrapper */}
+      <div className="px-4 pt-8">
+        {/* inner wrapper */}
+        <div className="max-w-[1284px] mx-auto md:flex md:items-center md:justify-between md:w-full mb-12 lg:mb-8">
+          {/* Search for a country */}
           <div className="flex items-center relative mb-12 md:mb-0">
             <input
               ref={countrySearchBox}
@@ -35,16 +38,18 @@ export default function Home({ mode, viewCountry, countriesData }) {
             />
             <MagnifyingGlass />
           </div>
+
+          {/* Filter by region */}
           <div className="relative">
             <button
               onClick={() => setShowFilter(!showFilter)}
-              className="h-[55px] w-64 px-6 bg-white dark:bg-darkBlue rounded-lg text-sm flex items-center justify-between mb-1 hover:bg-gray-200"
+              className="h-[55px] w-64 px-6 bg-white dark:bg-darkBlue rounded-lg text-sm flex items-center justify-between mb-1 hover:bg-gray-200 dark:hover:bg-vvDarkBlue"
             >
               Filter by Region
               {showFilter ? <ChevronUp /> : <ChevronDown />}
             </button>
             {showFilter && (
-              <ul className="dark:bg-darkBlue w-64 px-2 py-4 rounded-lg text-sm leading-6 absolute z-10">
+              <ul className="bg-white dark:bg-darkBlue w-64 px-2 py-4 rounded-lg text-sm leading-6 absolute z-10">
                 {["Africa", "Americas", "Asia", "Europe", "Oceania"].map(
                   (regionOption) => {
                     return (
@@ -55,9 +60,8 @@ export default function Home({ mode, viewCountry, countriesData }) {
                               region !== regionOption ? regionOption : "All"
                             )
                           }
-                          className={`flex px-4 rounded hover:bg-gray-200 hover:dark:bg-vDarkBlue cursor-pointer ${
-                            region === regionOption &&
-                            "bg-gray-300 dark:bg-vDarkBlue font-semibold"
+                          className={`flex px-4 rounded w-full hover:bg-gray-200 hover:dark:bg-vDarkBlue cursor-pointer ${
+                            region === regionOption && "font-semibold"
                           }`}
                         >
                           {regionOption}{" "}
@@ -77,7 +81,7 @@ export default function Home({ mode, viewCountry, countriesData }) {
 
       {/* Countries and flags */}
       <main className="px-4 pb-32">
-        <ul className="grid gap-[70px] grid-cols-[repeat(auto-fill,_250px)] justify-center max-w-[1210px] mx-auto">
+        <ul className="grid gap-x-[72px] gap-y-[36px] lg:gap-y-[72px] grid-cols-[repeat(auto-fill,_267px)] justify-center max-w-[1284px] mx-auto">
           {countriesData
             .filter((country) =>
               country.name.toLowerCase().includes(searchInput.toLowerCase())
@@ -86,16 +90,19 @@ export default function Home({ mode, viewCountry, countriesData }) {
             .map((country) => (
               <li key={country.alpha2Code}>
                 <button
-                  className="bg-white dark:bg-darkBlue w-[250px] rounded shadow shadow-gray-200 dark:shadow-none"
+                  className="transition duration-200 hover:scale-105 bg-white dark:bg-darkBlue w-[267px] h-[336px] rounded shadow shadow-gray-200 dark:shadow-none"
                   onClick={() => viewCountry(country)}
                 >
+                  {/* Flag */}
                   <img
-                    className="w-full h-[150px] rounded-t"
+                    className="w-full h-[162px] rounded-t"
                     src={country.flags.png}
                     alt={`${country.name} flag`}
                   />
-                  <div className="p-6">
-                    <div className="text-lg font-extrabold mb-3">
+
+                  {/* Country details */}
+                  <div className="p-6 h-[174px]">
+                    <div className="text-lg font-extrabold mb-3 leading-5">
                       {country.name}
                     </div>
                     <div className="text-sm leading-6 mb-4">

@@ -16,7 +16,7 @@ export default function CountryDetails({
 
   return (
     <>
-      <div className="max-lg:px-6 pt-8 lg:pt-12 lg:pb-4 max-w-[1210px] lg:mx-auto">
+      <div className="max-lg:px-6 pt-8 lg:pt-12 lg:pb-4 max-w-[1284px] lg:mx-auto">
         <button
           onClick={() => setView("home")}
           className="flex items-center mb-12 px-6 py-1 bg-white dark:bg-darkBlue shadow shadow-gray-400 dark:shadow-none"
@@ -25,9 +25,9 @@ export default function CountryDetails({
         </button>
       </div>
 
-      <div className="lg:flex max-w-[1210px] lg:mx-auto gap-[120px] max-lg:px-6 max-lg:mb-12">
+      <div className="lg:flex max-w-[1284px] lg:mx-auto gap-[120px] max-lg:px-6 max-lg:pb-12">
         <img
-          className="w-[340px] lg:w-[562px] lg:h-[406px] shrink-0 max-lg:mt-16 mb-4 shadow-md shadow-gray-300 dark:shadow-none"
+          className="w-[340px] lg:w-[562px] lg:h-[406px] shrink-0 max-lg:mt-16 mb-12 lg:mb-4 shadow-md shadow-gray-300 dark:shadow-none"
           src={country.flags.png}
           alt={`${country.name} flag`}
         />
@@ -85,7 +85,7 @@ export default function CountryDetails({
             </div>
             {borderCountries && (
               <div className="max-lg:mb-8 lg:flex lg:items-center lg:gap-4">
-                <h2 className="text-lg lg:text-sm lg:shrink-0 font-semibold mb-2">
+                <h2 className="text-lg lg:text-sm lg:shrink-0 font-semibold max-lg:mb-2">
                   Border Countries:
                 </h2>
                 <ul className="-mx-2">
